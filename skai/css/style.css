@@ -1,9 +1,53 @@
-* {
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    background-color: #1C2F42;
-    color: #BED8E6;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    font-size: 1.6em;
+body {
+    font-family: acumin-pro,"Helvetica Neue Light",sans-serif;
+}
+
+h1 {
+    font-weight: 200;
+    color: #1C2f42;
+    font-size: 3.5em;
+    letter-spacing: 12px;
     text-transform: uppercase;
+}
+
+
+.parallelogram {
+    width: 200px;
+    height: 30px;
+    transform: skew(-40deg);
+    display: inline-block;
+}
+
+/*COLOR AND OPACTIY*/
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+.opacity-20 {
+    opacity: 0.2;
+}
+
+.afterhours {
+    background: #1C2f42;
+}
+
+.skaiblue {
+    background: #8EB7CF;
+}
+
+.clarity {
+    background: #BED8E6;
+}
+
+.elevation {
+    background: #FFD105;
+}
+
+.azure {
+    background: #006B94;
+}
+
+.sleekblack {
+    background: #231F20;
 }
