@@ -1,9 +1,15 @@
-html, body {
-    background-color: white;
-    background-image: url("satellite.png");
+
+
+main {
+    background-image: url("../images/skai-stripe.png");
+    background-position: right top;
     background-repeat: repeat-y;
-    /*background-image: url("drone-4.jpg"); */
+
 }
 
-
+body {
+    background-color: white;
+    background-image: url("../images/bg.png");
+    background-repeat: none;
+    /*background-image: url("drone-4.jpg"); */
 }
