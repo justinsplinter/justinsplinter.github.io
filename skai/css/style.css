@@ -5,35 +5,39 @@ body {
 /*TYPOGRAPHY*/
 
 h1 {
-    font-weight: 100;
-    font-size: calc(2.7em + 3.0vw);
+    font-weight: 300;
+    font-size: calc(2.2em + 2.3vw);
     letter-spacing: calc(-2px - 0.1vw);
+    font-family: termina, sans-serif;
     /*letter-spacing: calc(5px + 1vw);*/
     /*text-transform: uppercase;*/
 }
 
 h2 {
-    font-weight: 100;
-    font-size: calc(2.2em + 2.3vw);
+    font-weight: 300;font-family: termina, sans-serif;
+    font-size: calc(1.8em + 2.0vw);
     letter-spacing: calc(-1.4px - 0.1vw);
     /*text-transform: uppercase;*/
 }
 
 h3 {
-    font-weight: 200;
-    font-size: calc(1.7em + 1.5vw);
+    font-weight: 300;
+    font-family: termina, sans-serif;
+    font-size: calc(1.6em + 1.4vw);
     letter-spacing: calc(-0.5px - 0.1vw);
     /*text-transform: uppercase;*/
 }
 
 h4 {
-    font-weight: 200;
+    font-weight: 300;
+    font-family: termina, sans-serif;
     font-size: calc(1.7em + 0.6vw);
     letter-spacing: calc(-0.5px - 0.1vw);
    }
 
 h5 {
     font-weight: 200;
+    font-family: termina, sans-serif;
     font-size: calc(1.4em + 0.4vw);
 
 }
@@ -81,6 +85,24 @@ p {
     font-weight: 700;
 }
 
+/*FORMS*/
+
+.form-group {
+    font-size:  calc(1.1em + .2vw);
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.form-control {
+    background-color: #E8F0F5!important;
+    color: #231F20;
+    font-size:  calc(0.7em + .2vw);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+}
+
+
 /*NAVBAR STYLE*/
 .overlay {
     height: 100%;
@@ -108,7 +130,8 @@ p {
     padding: 4px;
     text-decoration: none;
     font-weight: 100;
-    font-size: calc(1.5em + 2.5vw);
+    font-family: termina, sans-serif;
+    font-size: calc(1.3em + 1.3vw);
     letter-spacing: calc(-1px - 0.1vw);
     color: white;
     display: block;
@@ -125,7 +148,7 @@ p {
     color: #FFD105;}
 
 .overlay a:active {
-    color: #1C2f42;
+    color: #BED8E6;
 }
 
 .overlay .closebtn {
@@ -216,6 +239,10 @@ a:active {
 }
 
 /*TEXT COLOR*/
+
+.white-t {
+    color: white;
+}
 
 .afterhours-t {
     color: #1C2f42;
@@ -313,7 +340,7 @@ a:active {
 
 .button-3 {
     background: #006B94 ;
-    color: white;
+    color: #BED8E6;
     display:inline-block;
     padding:.5em 2em;
     text-decoration:none;
@@ -325,7 +352,7 @@ a:active {
 }
 
 .button-3:hover {
-    color: #8EB7CF;
+    color: white;
 }
 
 .button-3:active {

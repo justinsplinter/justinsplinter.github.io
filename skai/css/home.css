@@ -1,0 +1,5 @@
+html, body {
+    background-color: white;
+    background-image: url("satellite.png");
+    background-repeat: repeat-y;
+}

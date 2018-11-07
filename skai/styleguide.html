@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/abg6rsz.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>S K A I | STYLE</title>
+    <title>S K A I | S T Y L E</title>
+    <link rel="icon" href="images/favicon.png" type="image/gif">
 </head>
 <body>
 <div class="container-fluid">
@@ -22,18 +23,21 @@
             <div class="col">
             <!--<img src="images/header-special.png" class="mt-5 mt-5 mb-3 mx-auto d-block img-fluid">-->
             <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn " onclick="closeNav()">&times;</a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content ">
-                    <img src="images/reverse-logo.svg" width="300px">
+                    <img src="images/reverse-logo.svg" width="300px"><br>
                     <a href="#logo">Logo</a>
                     <a href="#color">Color Palette</a>
                     <a href="#typefaces">Fonts</a>
                     <a href="#buttons">Buttons</a>
                     <a href="#blocks">Bulleted lists/quotes</a>
+                    <a href="#favicon">Favicon</a>
+                    <a href="#forms">Forms</a>
+                    <a href="#social">Social icons/imagery</a>
                 </div>
             </div>
         </div>
-        <span style="font-size:40px;cursor:pointer; margin-right: 5%;margin-top: 3%; " onclick="openNav()">&#9776;</span>
+        <span style="font-size:40px;cursor:pointer; margin-right: 5%; padding-right: 5%; margin-top: 3%; " onclick="openNav()">&#9776;</span>
     </div>
 </nav>
 
@@ -41,8 +45,8 @@
         <div class="row">
             <div class="col-1"></div>
             <div class="col">
-                <img src="images/logo-main.svg" class="img-fluid mt-3 mb-4" width=350px">
-                <h2>Style guide 2019</h2>
+                <img src="images/logo-main.svg" class="img-fluid mt-3 mb-5" width=375px">
+                <h2 class="mt-2">Style guide 2019</h2>
             </div>
         </div>
     </header>
@@ -89,7 +93,7 @@
                 </div>
                 <div class="parallelogram sleekblack opacity-20">
                 </div>
-                <p class="font-italic text-uppercase">Afterhours #1C2F42</p>
+                <p class="font-italic text-uppercase mt-4">Afterhours #1C2F42</p>
                 <div class="parallelogram afterhours img-fluid">
                 </div>
                 <div class="parallelogram afterhours opacity-60">
@@ -151,11 +155,13 @@
         </section>
 
         <section id="typograpgy">
+
             <div class="row">
                 <div class="col-1">
                 </div>
                 <div class="col-10 mt-5">
-                    <h3 class="mb-5">Typography</h3>
+                    <h3 class="">Typography</h3>
+                    <hr class="azure mb-5">
                     <h1 class="afterhours-t mb-4">Heading One</h1>
                     <h2 class="afterhours-t mb-4">Heading Two</h2>
                     <h3 class="afterhours-t mb-4">Heading Three</h3>
@@ -192,15 +198,83 @@
                 <div class="col-10 mt-5">
                     <h3 class="mb-5">Blockquotes and Bullets</h3>
                     <p>Benefits of Skai rewards:</p>
-                   <ul class="list">
+                   <ul class="list mb-5">
                         <li>Customize your in-flight music</li>
                         <li>Exclusive priority service</li>
                         <li>Invitation to the <span class="bold">Skai Summit</span> every spring in Saudi Arabia.</li>
                 </ul></p>
-                    <blockquote>
+                    <blockquote class="mb-5">
                         <p>The sky is the limit in 2019.</p>
                     <p class="name">Justin Splinter</p>
                     </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="favicon" class="skaiblue-20 my-6 pb-5">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-10 mt-5">
+                    <h3 class="mb-5">Favicons</h3>
+                    <p>3 favicon sizes: 100x100, 32x32, and 16x16</p>
+                    <img src="images/favicon-100.png">
+                    <img src="images/favicon-32.png">
+                    <img src="images/favicon.png">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="forms" class="my-6 pb-5">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-10 mt-5">
+                    <h3 class="mb-5">Forms</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I agree to the safety waivers</label>
+                        </div>
+                        <button type="submit" class="mb-4 button-3 parallelogram-2" href="#">
+                            <span class="skew-fix">submit ></span></button>
+                        <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="social" class="my-6 pb-5 skaiblue-20">
+            <div class="row">
+                <div class="col-1"></div>
+                    <div class="col-10 mt-5">
+                        <h3 class="mb-5">Social icons</h3>
+                        <img src="images/social-icons.png" class="mr-4"><img src="images/icon-set-2.png">
+                    </div>
+                </div>
+        </section>
+
+        <section id="images" class="my-6 pb-5">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10 mt-5">
+                    <h3 class="mb-5">Imagery</h3>
+                    <img src="images/header-special.png" class="mb-3 img-fluid"><br>
+                    <img src="images/drone-1.png" class="img-fluid">
+                    <img src="images/drone-2.png" class="img-fluid">
+                    <img src="images/drone-3.png" class="img-fluid">
+
                 </div>
             </div>
         </section>
