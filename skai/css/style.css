@@ -100,6 +100,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 3px;
     border: none;
+    width: 80%;
 }
 
 
@@ -236,6 +237,10 @@ a:active {
 
 .sleekblack {
     background: #231F20;
+}
+
+.sleekback-20 {
+    background: rgba(35,31,32, 0.5)
 }
 
 /*TEXT COLOR*/
@@ -376,3 +381,20 @@ li {
     margin-left: calc(1.1em + .2vw);
 }
 
+/*ICONOGRAPHY*/
+
+.social-icon {
+    font-size: 1.8em;
+    color: slategrey;
+}
+
+i:hover {
+    color: #006B94;}
+
+i:active {
+    color: #FFD105;
+}
+
+.smalltext {
+    color: slategrey;
+    font-size: calc(0.7em + 0.5vw);}
