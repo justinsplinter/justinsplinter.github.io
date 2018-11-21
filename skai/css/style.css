@@ -148,7 +148,7 @@ p {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*FORMS*/
@@ -251,11 +251,13 @@ a.closebtn {
 
 #exampleInputPassword2 {
     font-size: 80%;
+    background-color: rgb(0,0,0);
     color: white;
     font-weight: 200;
     font-style: italic;
-    letter-spacing: 0.8vw;
+    letter-spacing: 0.6vw;
     text-transform: uppercase;
+    border-bottom: #8EB7CF solid 1px;
 }
 
 
@@ -453,7 +455,7 @@ a:active {
     text-decoration:none;
     font-weight: 200;
     font-style: italic;
-    letter-spacing: 9px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     font-size:  calc(0.9em + .2vw);
 }
@@ -498,7 +500,7 @@ i:active {
 }
 
 .smalltext {
-    font-size: calc(0.7em + 0.5vw);}
+    font-size: calc(0.8em + 0.5vw);}
 
 /*STICKY FOOTER*/
 
