@@ -2,12 +2,67 @@ body {
     font-family: acumin-pro,"Helvetica Neue Light",sans-serif;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+.login {
+    background-image: url("../images/overhead.png");
+    /*background-position: right top;*/
+    background-repeat: repeat-x;
+    background-color: #2B2B2B;
+    background-blend-mode: overlay;
+}
+
+.map {
+    background-image: url("../images/satellite-3.jpg");
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-color: rgba(255,255,255, 0.9)!important;
+    background-blend-mode: overlay;
+}
+
+    /*#map-overlay {*/
+        /*width  : 325px;*/
+        /*height : 300px;*/
+        /*opacity: 0.6;!*add this*!*/
+        /*top: 0px;*/
+        /*left: 0px;*/
+        /*z-index: 99;*/
+    /*}*/
+
+#map-bar {
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    top: 0px;
+    left: 15px;
+    background-color: #231F20;
+    color: #FFD105!important;
+}
+
+.yellow-border {
+    border-left: #FFD105 3px solid;
+}
+
+.styleguideheader {
+    background-color: #E8F0F5;
+    padding-bottom: 6%;
+}
+
+.marg-10 {
+    margin-top: 10%;
+}
+
 /*TYPOGRAPHY*/
 
 h1 {
     font-weight: 300;
     font-size: calc(2.2em + 2.3vw);
-    letter-spacing: calc(-2px - 0.1vw);
+    letter-spacing: calc(-1px - 0.3vw);
     font-family: termina, sans-serif;
     /*letter-spacing: calc(5px + 1vw);*/
     /*text-transform: uppercase;*/
@@ -46,9 +101,20 @@ h5 {
 h6 {
     font-weight: 200;
     font-style: italic;
-    letter-spacing: 9px;
+    letter-spacing: 0.8vw;
     text-transform: uppercase;
     font-size: calc(1.2em + 0.4vw);
+}
+
+.blend {
+    mix-blend-mode: overlay;
+    font-weight: 600;
+    color: greenyellow;
+}
+
+.capitalize {
+    letter-spacing: 0.8vw;
+    text-transform: uppercase;
 }
 
 blockquote {
@@ -87,6 +153,14 @@ p {
 
 /*FORMS*/
 
+.form-control2 {
+    background-color: #231F20;
+    border: none;
+    width: 100%;
+    color: white;
+    padding-left: 10px;
+}
+
 .form-group {
     font-size:  calc(1.1em + .2vw);
     line-height: 1.6;
@@ -94,13 +168,14 @@ p {
 }
 
 .form-control {
-    background-color: #E8F0F5!important;
-    color: #231F20;
+    background-color: #BED8E6!important;
+    border-radius: 0;
+    color: white!important;
     font-size:  calc(0.7em + .2vw);
     text-transform: uppercase;
     letter-spacing: 3px;
     border: none;
-    width: 80%;
+    width: 85%;
 }
 
 
@@ -115,30 +190,45 @@ p {
     background-color: rgba(28,47,66, 0.97);
     overflow-x: hidden;
     transition: 0.6s;
+    border-left: 5px solid #BED8E6;
 
 }
 
 .overlay-content {
     position: relative;
-    top: 15%;
+    top: 8%;
     width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    border-left: 10px solid #BED8E6;
+    text-align: left;
+    padding-left: 20px;
    }
 
 .overlay a {
-    padding: 4px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
     text-decoration: none;
     font-weight: 100;
     font-family: termina, sans-serif;
-    font-size: calc(1.3em + 1.3vw);
-    letter-spacing: calc(-1px - 0.1vw);
+    font-size: calc(0.8em + 1.3vw);
+    letter-spacing: calc(0.3px - 0.1vw);
     color: white;
     display: block;
-    text-transorm: uppercase;
     transition: 0.3s;
+    text-align: left;
+    border-bottom: 1px solid black;
 
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: acumin-pro, sans-serif;
+    font-size: calc(0.8em + 1.3vw);
+    letter-spacing: calc(0.1px - 0.1vw);
+    color: #006B94;}
+
+a.closebtn {
+    border: none;
 }
 
 .overlay img {
@@ -149,20 +239,28 @@ p {
     color: #FFD105;}
 
 .overlay a:active {
-    color: #BED8E6;
+    color: white;
 }
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 45px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
-header {
-    background-color: #E8F0F5;
-    padding-bottom: 6%;
+#exampleInputPassword2 {
+    font-size: 80%;
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.8vw;
+    text-transform: uppercase;
 }
+
+
+
+
 
 
 /*LINKS*/
@@ -204,7 +302,11 @@ a:active {
 }
 
 .opacity-20 {
-    opacity: 0.2;
+    opacity: 0.7;
+}
+
+.opacity-100 {
+    background-color: rgba(255,255,255, 0.85)!important;
 }
 
 .afterhours {
@@ -396,5 +498,19 @@ i:active {
 }
 
 .smalltext {
-    color: slategrey;
     font-size: calc(0.7em + 0.5vw);}
+
+/*STICKY FOOTER*/
+
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
