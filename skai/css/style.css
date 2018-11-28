@@ -398,6 +398,10 @@ a:active {
     color: #231F20;
 }
 
+a.grey {
+    color: grey;
+}
+
 
 /*BUTTON CSS*/
 
