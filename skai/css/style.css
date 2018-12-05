@@ -99,7 +99,7 @@ html {
 }
 
 .white-left {
-    border-left: white solid 1px;
+    border-left: #1C2f42 solid 1px;
 }
 
 .midnight-left {
@@ -217,12 +217,18 @@ p{
 
 .footer-p {
     font-size:  12px;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
-    font-family: termina, sans-serif;
+    letter-spacing: 1.8;
+    font-style: italic;
+    font-family: acumin-pro, sans-serif;
     margin: 0;
     text-align: center;
     margin-top: 5px;
+}
+
+.grey {
+    background-color: white;
 }
 
 .header-p {
@@ -327,6 +333,14 @@ a.closebtn {
 
 .overlay a:hover {
     color: #FFD105;}
+
+.big-icon i:hover {
+    color: white;
+}
+
+.big-icon i:active {
+    color: white;
+}
 
 .overlay a:active {
     color: white;
@@ -642,9 +656,11 @@ i:active {
 line-height: 1.2em;}
 
 .big-icon {
-    font-size: 1.2em;
-    color: white;
+    font-size: 1em;
+    color: #231F20;
 }
+
+
 
 .blue-icon {
     font-size: 2.5em;
@@ -655,12 +671,8 @@ line-height: 1.2em;}
 
 
 footer {
-
-    background-color: #BED8E6;
     text-align:center;
     padding:20px;
-    /* just for demo */
-
     position: absolute;
     left: 0;
     bottom: 0;
@@ -669,11 +681,45 @@ footer {
 }
 
 .big-icon a:hover {
-    color: #006B94;}
+    color: white;}
 
 footer a:active {
     color: #FFD105;
 }
+
+.footer-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.footer-box {
+    position: relative;
+    background: white;
+    color: #000;
+}
+
+.footer-box:hover {
+    cursor: hand;
+    cursor: pointer;
+    background-color: #BED8E6;
+    color: white;
+}
+
+.footer-box:active {
+    cursor: hand;
+    cursor: pointer;
+    background-color: #8EB7CF;
+    color: white;
+}
+
+ .footer-link a:active {
+     color: white;
+ }
 
 
 
