@@ -64,12 +64,6 @@ html {
     color: #FFD105!important;
 }
 
-#map-skew {
-    /*transform: skew(-10deg);*/
-    width: 100%;
-    background-color: #005B7F;
-    /*color: #FFD105!important;*/
-}
 
 #map-bar2 {
     transform: skew(-20deg);
@@ -271,8 +265,12 @@ p{
     font-size:  calc(0.7em + .2vw);
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: none;!important;
+    border: none!important;
     width: 90%;
+}
+
+.width-form {
+    width: 75%!important;
 }
 
 
@@ -362,6 +360,10 @@ a.closebtn {
     letter-spacing: 0.6vw;
     text-transform: uppercase;
     border-bottom: white solid 1px;
+}
+
+#form-control-2 {
+    width: 75%!important;
 }
 
 
@@ -723,6 +725,8 @@ footer a:active {
 
 
 
+
+
 /*ANIMATION*/
 #map {
     height: 100%;
@@ -732,8 +736,8 @@ footer a:active {
 
 .overlay2 {
     width: 100%;
-    height: 50%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/map-1.jpg');
+    height: 80%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../images/map-1.jpg');
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
