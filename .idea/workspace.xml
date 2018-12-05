@@ -15,32 +15,34 @@
     <session id="1040727197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="10" />
+          <entry key="css" value="7" />
+          <entry key="html" value="13" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
           <entry key="php" value="1" />
-          <entry key="png" value="15" />
+          <entry key="png" value="21" />
           <entry key="svg" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="10" />
-          <entry key="Image" value="16" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="13" />
+          <entry key="Image" value="22" />
           <entry key="JavaScript" value="1" />
           <entry key="PHP" value="1" />
           <entry key="SVG" value="2" />
@@ -48,14 +50,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6226" />
-          <entry key="html" value="10746" />
+          <entry key="css" value="7342" />
+          <entry key="html" value="15714" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6226" />
-          <entry key="HTML" value="10746" />
+          <entry key="CSS" value="7342" />
+          <entry key="HTML" value="15714" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -64,25 +66,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skai/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            <state relative-caret-position="411">
+              <caret line="55" column="86" lean-forward="true" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skai/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/skai/request.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            <state relative-caret-position="50">
+              <caret line="5" column="14" selection-end-line="146" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1473#1480#1" expanded="true" />
-                <element signature="e#4305#4311#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skai/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -90,31 +99,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skai/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1366">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="410">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skai/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="551" column="63" lean-forward="true" selection-start-line="551" selection-start-column="63" selection-end-line="551" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skai/images/map.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skai/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="9" />
+            <state relative-caret-position="60">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skai/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skai/rewards.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1460">
+              <caret line="146" selection-start-line="104" selection-end-line="146" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,35 +150,35 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>typo</find>
+      <find>border</find>
+      <find>#005B7F</find>
+      <find>hr</find>
+      <find>TEXT</find>
+      <find>button</find>
+      <find>html</find>
+      <find>mobile</find>
+      <find>blue-l</find>
+      <find>hover</find>
+      <find>opacity</find>
+      <find>overl</find>
+      <find>footer-p</find>
       <find>span</find>
-      <find>form</find>
-      <find>map</find>
-      <find>a</find>
-      <find>nav</find>
-      <find>ivan</find>
-      <find>yello</find>
-      <find>h6</find>
-      <find>skaiblue</find>
-      <find>example</find>
-      <find>mx</find>
-      <find>para</find>
-      <find>my</find>
-      <find>sk</find>
-      <find>body</find>
-      <find>parallel</find>
-      <find>map-</find>
-      <find>skew-fix</find>
+      <find>icono</find>
       <find>small</find>
-      <find>map-b</find>
-      <find>skew-f</find>
-      <find>005B7F</find>
-      <find>overlay</find>
+      <find>bold</find>
+      <find>20%</find>
+      <find>map-s</find>
       <find>overlay2</find>
+      <find>form-c</find>
+      <find>go</find>
       <find>login</find>
-      <find>bar2</find>
-      <find>map-bar</find>
-      <find>i</find>
-      <find>fa</find>
+      <find>mab</find>
+      <find>h6</find>
+      <find>map</find>
+      <find>button-3</find>
+      <find>footer</find>
+      <find>-bar</find>
       <find>main</find>
     </findStrings>
   </component>
@@ -175,11 +194,13 @@
         <option value="$PROJECT_DIR$/skai/inc/header.php" />
         <option value="$PROJECT_DIR$/skai/inc/header.html" />
         <option value="$PROJECT_DIR$/skai/header.html" />
-        <option value="$PROJECT_DIR$/skai/index.html" />
-        <option value="$PROJECT_DIR$/skai/css/home.css" />
         <option value="$PROJECT_DIR$/skai/login.html" />
-        <option value="$PROJECT_DIR$/skai/dashboard.html" />
+        <option value="$PROJECT_DIR$/skai/request.html" />
+        <option value="$PROJECT_DIR$/skai/rewards.html" />
         <option value="$PROJECT_DIR$/skai/css/style.css" />
+        <option value="$PROJECT_DIR$/skai/dashboard.html" />
+        <option value="$PROJECT_DIR$/skai/css/home.css" />
+        <option value="$PROJECT_DIR$/skai/index.html" />
       </list>
     </option>
   </component>
@@ -189,17 +210,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="343" />
-    <option name="y" value="308" />
-    <option name="width" value="1383" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="287" />
+    <option name="y" value="84" />
+    <option name="width" value="2947" />
+    <option name="height" value="1759" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,17 +246,23 @@
               <item name="skai" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="justinsplinter.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="justinsplinter.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="skai" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="SVG" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sxhool-stuff/final" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -277,17 +305,19 @@
       <workItem from="1542383244102" duration="599000" />
       <workItem from="1542681194452" duration="47388000" />
       <workItem from="1543363412147" duration="15055000" />
+      <workItem from="1543591905029" duration="45314000" />
+      <workItem from="1543907651477" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147436000" />
+    <option name="totallyTimeSpent" value="193908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-7" width="1802" height="1248" extended-state="7" />
+    <frame x="164" y="48" width="1684" height="1005" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.200453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25667477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,9 +388,6 @@
     <entry file="file://$PROJECT_DIR$/skai/images/SVG/Asset 11.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skai/images/drone-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/skai/images/overhead.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -385,58 +412,82 @@
     <entry file="file://$PROJECT_DIR$/skai/images/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skai/images/drone-3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skai/images/drone-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/skai/images/drone-landscape.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/skai/css/satellite.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skai/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skai/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skai/images/map.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skai/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/skai/images/drone-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/images/drone-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/images/drone-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/images/bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1473#1480#1" expanded="true" />
-            <element signature="e#4305#4311#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="411">
+          <caret line="55" column="86" lean-forward="true" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skai/login.html">
+    <entry file="file://$PROJECT_DIR$/skai/request.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1366">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="50">
+          <caret line="5" column="14" selection-end-line="146" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skai/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="551" column="63" lean-forward="true" selection-start-line="551" selection-start-column="63" selection-end-line="551" selection-end-column="63" />
+        <state relative-caret-position="820">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skai/rewards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="146" selection-start-line="104" selection-end-line="146" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,5 +5,15 @@
     background-position: right top;
     background-repeat: repeat-y;
 
+
 }
+
+.bg {
+    background-image: url("../images/bg2.jpg");
+    background-position: left top;
+    background-repeat: repeat-y;
+
+
+}
+
 
