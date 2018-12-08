@@ -82,6 +82,11 @@ html {
     color: #1C2f42!important;
 }
 
+#fluid-override {
+    max-width: 100%;
+    height: 500px!important;
+}
+
 /*BORDERS*/
 
 .yellow-border {
@@ -89,7 +94,7 @@ html {
 }
 
 .blue-left {
-    border-left: #005B7F solid 5px;
+    border-bottom: #005B7F solid 5px;
 }
 
 .white-left {
@@ -199,7 +204,7 @@ blockquote .name {
 
 p{
     font-size:  calc(1.1em + .2vw);
-    line-height: 1.6;
+    line-height: 1.3;
     font-weight: 300;
 }
 
@@ -315,10 +320,9 @@ p{
 
 a {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     font-family: acumin-pro, sans-serif;
-    font-size: calc(0.8em + 1.3vw);
-    letter-spacing: calc(0.1px - 0.1vw);
+       letter-spacing: calc(0.1px - 0.1vw);
     color: #006B94;}
 
 a.closebtn {
@@ -430,7 +434,7 @@ a:active {
 }
 
 .skaiblue-20 {
-    background: #EDF2F4;
+    background: #ebf0f5;
 }
 
 .skaiblue-40 {
@@ -628,12 +632,13 @@ li {
 
 
 .list {
-    font-size: calc(1.1em + .2vw);
-    line-height: 1.8;
+    font-size: calc(1em + .2vw);
+    line-height: 1.5;
     font-weight: 300;
-    border-left: 5px #231F20 solid;
+    border-left: 5px #FFD105 solid;
     opacity: 0.8;
-    margin-left: calc(1.1em + .2vw);
+    margin-left: calc(0.5em + .2vw);
+    padding-left: 0.9em;
 }
 
 /*ICONOGRAPHY*/
@@ -662,6 +667,12 @@ line-height: 1.2em;}
     color: #231F20;
 }
 
+.big-icon2 {
+    font-size: 1.5em;
+    color: #231F20;
+}
+
+
 
 
 .blue-icon {
@@ -680,6 +691,7 @@ footer {
     bottom: 0;
     height: 60px;
     width: 100%;
+
 }
 
 .big-icon a:hover {
@@ -703,6 +715,10 @@ footer a:active {
     position: relative;
     background: white;
     color: #000;
+}
+
+.fixed-bottom {
+    border-top: 1px solid #231F20;
 }
 
 .footer-box:hover {
@@ -748,4 +764,51 @@ footer a:active {
 
 }
 
+.figure-caption {
+    background-color: #231F20;
+    color: white;
+    font-style: italic;
+    line-height: 1.1;
+    font-size: 0.9rem;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+/*ACCORDIAN*/
+
+.accordion {
+    border-radius: 0;
+}
+
+.card-header {
+    padding: 0;
+    border-raidus: 0;
+    border-bottom: 1px solid white;
+}
+
+.card {
+    background-color: #E8EAEC;
+    background-image: url("../images/drone-landscape.jpg");
+    background-position: top left;
+    background-blend-mode: overlay;
+    border: none;
+}
+
+.btn-link {
+    color: #005B7F;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #FFD105;
+    text-decoration: none;
+
+}
+
+.btn-link:active {
+    color: #1C2f42;
+    text-decoration: none;
+}
 

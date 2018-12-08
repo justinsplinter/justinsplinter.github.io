@@ -1,9 +1,10 @@
 
 
-.bars   {
+#bars   {
     background-image: url("../images/skai-stripe.png");
     background-position: right top;
     background-repeat: repeat-y;
+    z-index: 10;
 
 
 }
@@ -12,6 +13,7 @@
     background-image: url("../images/bg.png");
     background-position: left top;
     background-repeat: repeat-y;
+    z-index: 20;
 
 
 }

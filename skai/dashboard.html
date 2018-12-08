@@ -15,165 +15,74 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-    <!--<script>-->
-        <!--function results () {-->
-            <!--var address1 = document.getElementById('address').value;-->
-            <!--document.write(address1 + "<br/>");-->
-        <!--}-->
-    <!--</script>-->
-
 
 </head>
 
-<body>
+<body class="afterhours">
 <div class="container-fluid">
     <header>
-        <div class="row pt-1 pb-2">
+        <div class="row pt-1 pb-3 skaiblue-40">
             <div class="col">
                 <span style="font-size:20px;cursor:pointer; margin-top: 20%;" onclick="openNav()">&#9776;</span>
                 <a href="index.html"><img src="images/logo-main.svg" width="120px" class="img-fluid float-right mt-2" alt="skai logo"></a>
 
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <div class="overlay-content">
-                                <!--<a href="index.html"><img src="images/reverse-logo.svg" style="opacity: 0.2; width: 200px; margin-bottom: 10px;"></a>-->
-                                <img src="images/tatiana.png" class="img-fluid" width="200px"></a>
-                                <h4 class="capitalize white-t">Tatiana</h4>
-                                <p class="elevation-t capitalize mt-0">Elite gold</p>
-
-                                <a href="request.html" class="grey">Request flight</a>
-                                <a href="request.html" class="grey">Schedule pickup</a>
-                                <a href="request.html" class="grey">Skai rewards</a>
-                                <a href="request.html" class="grey">Settings</a>
-                                <a href="request.html" class="grey">Billing</a>
-
-                            </div>
-                        </div>
-            </div>
-            </div>
-</header>
-
-<main>
-    <div class="row mb-1">
-        <div class="col login">
-                <h1 class="pt-2">Let's go</h1>
-            <p class="afterhours-t smalltext">The closest SkaiLaunch to your current location is:</p>
-
-    </div>
-    </div>
-
-
-
-    <div class="row mt-4">
-        <div class="col ">
-            <span class="blue-icon float-left mr-2"><i class="fas fa-map-marker-alt"></i></span>
-            <p class="smalltext-single sleekblack-t m-0 bold">Mpls Community Technical College rooftop<br>
-            <p class="smalltext-single azure-t">1501 Hennepin Ave, Minneapolis, MN 55403</span></p>
-        </div>
-    </div>
-
-    <div class="row no-gutters mt-1">
-        <div class="col-7">
-            <div id="map-bar" class="pb-1 ml-2"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Nearest <span class="bold">Skai</span>Launch</h6></div></div>
-        <div class="col-5">
-            <div id="map-bar2" class="pb-1"><h6 class="smalltext elevation-t skew-fix mx-auto d-block pt-2 pl-2">0.3 miles</h6></div><br>
-        </div>
-    </div>
-
-
-
-
-
-    <div class="row">
-        <div class="col blue-left">
-                       <h3 class="sleekblack-t pt-2">Where to?</h3>
-            <p class="afterhours-t smalltext p-0">Enter address below</p>
-            <form class="form-group d-inline">
-                <input type="text" class="form-control d-inline width-form" id="address" aria-describedby="emailHelp" placeholder="Destination address">
-            </form>
-            <button class=" button-3 parallelogram-2 pt-1" data-toggle="modal" data-target="#myModal"><span class="skew-fix">go</span></button>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1415.5661620336648!2d-93.28530321856121!3d44.972721467944325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sminneapolis+college!5e0!3m2!1sen!2sus!4v1544030429473" width="1200" height="1200" frameborder="0" class="img-fluid pt-4" style="border:0"></iframe>
-
-
-
-
-
-
-                <div class="modal fade" id="myModal">
-                    <div class="midnight-left modal-dialog skaiblue-20">
-                        <div class="modal-content">
-                            <div class="modal-header afterhours">
-                                <h4 class="text-center white-t mt-3">Confirmation</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class= "modal-body login">
-                                <div class="row no-gutters mt-4 mb-2">
-                                    <div class="col-7">
-                                        <div class="pb-1 map-bar3"><h6 class="smalltext skew-fix mx-auto d-block pt-2 pl-2">Drone arrival</h6></div></div>
-                                    <div class="col-5">
-                                        <div id="map-bar2" class="pb-1"><h6 class="smalltext elevation-t skew-fix mx-auto d-block pt-2 pl-2">12 minutes</h6></div><br>
-                                    </div>
-                                </div>
-                                <p>Your drone <span class="bold">Alena</span> is 11 minutes away</p>
-                                <p>Your destination is <b>Destination city here</b></p>
-                                <img src='images/drone-2.png' class="img-fluid">
-                            </div>
-                            </div>
-                            </div>
-                        </div>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content ">
+                        <a href="index.html"><img src="images/reverse-logo.svg" width="120px"></a><br>
+                        <a href="styleguide.html">Style guide 2019</a>
+                        <a href="login.html">Client login</a>
                     </div>
                 </div>
-
-
-
-        <div class="row mt-3">
-            <div class="col afterhours-20">
-
-                    <h class="mt-2">Pre-flight checklist</h>
-
-                <ul class="yellow-border">
-                    <li><A href="https://youtu.be/uyd6OLyhPJo">Upload new playlist</A>
-                <li>Redeem rewards
-                </ul>
+            </div>
         </div>
+    </header>
 
-            <footer>
-                <!--<div class="fixed-bottom navbar-expand-sm navbar-dark sleekback">-->
-                <div class="row fixed-bottom">
-                    <div class="col grey footer-box"><a href="index.html" class="sleekblack-t footer-link"><span class="big-icon"><i class="fas fa-home pt-2"></i></span><p class="footer-p sleekblack-t">home</p></a></div>
 
-                    <div class="col grey white-left footer-box"> <a href="dashboard.html" class= "footer-link"><span class="big-icon">
-                        <i class="fas fa-map-marked-alt pt-2"></i></span><p class="footer-p sleekblack-t">Hail</p></a></div>
-
-                    <div class="col-4 grey white-left pl-0 footer-box"> <a href="dashboard.html" class="sleekblack-t"><span class="big-icon"><i class="fas fa-location-arrow pt-2"></i></span><p class="footer-p sleekblack-t">Status</p></a></div>
-                </div>
-            </footer>
+    <main class="mt-4">
+        <div class="row pb-1">
+            <div class="col">
+                <h6 class="smalltext white-t"><span class="elevation-t">Gold</span> Member since December 2018</h6>
+            </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="white-t">Tatiana Alcocer</h2>
 
-    </div>
+            </div>
+
+        </div>
+</main>
+
+    <footer>
+        <!--<div class="fixed-bottom navbar-expand-sm navbar-dark sleekback">-->
+        <div class="row fixed-bottom">
+            <div class="col grey footer-box"><a href="dashboard.html" class="sleekblack-t footer-link"><span class="big-icon"><i class="fas fa-home pt-2"></i></span><p class="footer-p sleekblack-t">Dashboard</p></a></div>
+
+            <div class="col grey white-left footer-box"> <a href="login-main.html" class= "footer-link"><span class="big-icon">
+                        <i class="fas fa-helicopter pt-2"></i></span><p class="footer-p sleekblack-t">Request</p></a></div>
+
+            <div class="col-4 grey white-left pl-0 footer-box"> <a href="login-main.html" class="sleekblack-t"><span class="big-icon"><i class="fas fa-location-arrow pt-2"></i></span><p class="footer-p sleekblack-t">Status</p></a></div>
+        </div>
+    </footer>
 
 
-
-    <!-- Bootstrap core JavaScript
+<!-- Bootstrap core JavaScript
 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "70%";
+    }
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "80%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
-<Script></Script>
-    </main>
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+</div>
 </body>
 </html>
 
