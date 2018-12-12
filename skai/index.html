@@ -20,8 +20,10 @@
 <div id="bars">
 <div class="container-fluid bg">
 
-<body>
+<body class="bg">
 <main>
+
+
     <nav class="fixed-nav">
         <div class="row">
     <div class="col">
@@ -34,12 +36,15 @@
                     <div id="myNav" class="overlay">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <div class="overlay-content ">
-                            <a href="index.html"><img src="images/reverse-logo.svg" width="120px"></a><br>
-                            <a href="styleguide.html">skai | style</a>
-                            <a href="request.html">login</a>
-                            <a href="login-main.html">dashboard</a>
-                            <a href="rewards.html">rewards</a>
-                            <a href="login-main.html">safety</a>
+                            <a href="index.html"><img src="images/reverse-logo.svg" width="130px"></a><br>
+                            <a href="request.html"">Client login</a>
+                            <a href="apply.html">Prospective clients</a>
+                            <a href="#">FAQs</a>
+                            <a href="#">Our drone fleet</a>
+                            <a href="#">Safety commitment</a>
+                            <a href="#">SKAI Live Flight</a>
+                            <a href="#">SKAI Entertainment</a>
+                            <a href="styleguide.html">Style guide 2019</a>
                         </div>
                     </div>
                 </div>
@@ -50,6 +55,7 @@
     </nav>
 
 
+
      <div class="row">
          <div class="col-1"></div>
          <div class="col-6 my-auto align-middle">
@@ -58,17 +64,73 @@
              <p>Skip maddening traffic jams and arrive in minutes, with Skai.</p>
             <a class="mb-4 mr-2 button-3 parallelogram-2 mt-4" href="request.html">
                 <h6 class="skew-fix smalltext">take off ></h6></a>
+         </div>
 
-        </div>
          <div class="col-5" id="back2">
              <img src="images/ivan.png" class="img-fluid float-right my-auto d-block">
          </div>
      </div>
+
+
+
+
 </main>
 
+<div class="modal fade" id="statusModal">
+    <div class="midnight-left modal-dialog skaiblue-20">
+        <div class="modal-content">
+            <div class="modal-header pt-2 pb-2 login">
+                <h2 class="text-center mt-3">Confirmation</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class= "modal-body">
+
+                <p class="smalltext">Your drone is enroute.</p>
+                <div class="row no-gutters mt-4 mb-2">
+                    <div class="col-7">
+                        <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Drone arrival</h6></div></div>
+                    <div class="col-5">
+                        <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">12 minutes</h6></div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters mb-2">
+                    <div class="col-7">
+                        <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Arrival time</h6></div></div>
+                    <div class="col-5">
+                        <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">12:33pm</h6></div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters mb-4">
+                    <div class="col-7">
+                        <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Flight time</h6></div></div>
+                    <div class="col-5">
+                        <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">20 minutes</h6></div>
+                    </div>
+                </div>
+
+                <p class="smalltext">Your drone ALENA is 11 minutes away at the <span class="bold azure-t">Minneapolis Commuity and Technical College rooftop</span> SKAIbase location</p>
+                <p class="smalltext">Your destination is <b>Madison, Wisconsin</b></p>
+                <img src='images/drone-3.png' class="img-fluid">
+            </div>
+        </div>
+    </div>
 
 
-<footer>
+
+
+</div>
+</body>
+</div>
+
+
+
+
+
+<footer id="mobile">
     <!--<div class="fixed-bottom navbar-expand-sm navbar-dark sleekback">-->
     <div class="row fixed-bottom">
         <div class="col grey footer-box"><a href="dashboard.html" class="sleekblack-t footer-link"><span class="big-icon"><i class="fas fa-home pt-2"></i></span><p class="footer-p sleekblack-t">Dashboard</p></a></div>
@@ -76,9 +138,11 @@
         <div class="col grey white-left footer-box"> <a href="login-main.html" class= "footer-link"><span class="big-icon">
                         <i class="fas fa-helicopter pt-2"></i></span><p class="footer-p sleekblack-t">Request</p></a></div>
 
-        <div class="col-4 grey white-left pl-0 footer-box"> <a href="login-main.html" class="sleekblack-t"><span class="big-icon"><i class="fas fa-location-arrow pt-2"></i></span><p class="footer-p sleekblack-t">Status</p></a></div>
+        <div class="col-4 grey white-left pl-0 footer-box"> <a href="#" data-toggle="modal" data-target="#myModal" class="sleekblack-t"><span class="big-icon"><i class="fas fa-location-arrow pt-2"></i></span><p class="footer-p sleekblack-t">Status</p></a></div>
     </div>
 </footer>
+
+
 
 
 

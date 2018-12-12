@@ -18,10 +18,10 @@
 
 </head>
 
-<body class="afterhours">
+<body class="bg">
 <div class="container-fluid">
-    <header>
-        <div class="row pt-1 pb-3 skaiblue-40">
+    <header class="">
+        <div class="row pt-2 pb-3 skaiblue-40">
             <div class="col">
                 <span style="font-size:20px;cursor:pointer; margin-top: 20%;" onclick="openNav()">&#9776;</span>
                 <a href="index.html"><img src="images/logo-main.svg" width="120px" class="img-fluid float-right mt-2" alt="skai logo"></a>
@@ -39,30 +39,173 @@
     </header>
 
 
-    <main class="mt-4">
-        <div class="row pb-1">
+    <main class="mt-2">
+        <div class="row border-btm">
             <div class="col">
-                <h6 class="smalltext white-t"><span class="elevation-t">Gold</span> Member since December 2018</h6>
+                <img src="images/tatiana.png" width=100px; class="img-fluid float-left">
+                <div class="col mt-4">
+                    <h4 class= "m-0 text-left">Tatiana Alcocer</h4>
+                    <h6 class="smalltext text-left"><span class="bold elevation-t">Gold</span> Member since 2018</h6>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <h2 class="white-t">Tatiana Alcocer</h2>
+        </div>
 
+        <div class="row mt-3">
+            <div class="col">
+                <h2 class="">Dashboard</h2>
+                <p class="smalltext">Your account, at your fingertips</p>
+            </div>
+        </div>
+
+        <div class="row pl-2 pr-2 mb-2">
+            <div class="col mb-1 mr-2 white-t d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block"><i class="fas fa-map-marker-alt"></i></span>
+
+                <h6 class="smalltext dashboard-bar white-t">Nearest SKAIbase</h6>
             </div>
 
+            <div class="col mb-1 mr-2 white-t d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block"> <i class="far fa-clock"></i></span>
+                <h6 class="smalltext dashboard-bar white-t">Schedule future trip</h6>
+            </div>
         </div>
+
+        <div class="row pl-2 pr-2 mb-2">
+            <div class="col mb-1 mr-2 white-t d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block">  <i class="fas fa-money-check-alt"></i></span>
+                <h6 class="smalltext dashboard-bar white-t">SKAI rewards</h6>
+            </div>
+
+
+            <div class="col mb-1 mr-2 white-t d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block">  <i class="fas fa-cog"></i></span>
+                <h6 class="smalltext dashboard-bar white-t">Preferences</h6>
+            </div>
+        </div>
+
+        <div class="row pl-2 pr-2 mb-2">
+            <div class="col mb-1 mr-2  d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block">  <i class="fas fa-headphones-alt"></i></span>
+                <h6 class="smalltext dashboard-bar white-t">In-flight entertainment</h6>
+            </div>
+
+
+            <div class="col mb-1 mr-2  d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block">  <i class="fas fa-history"></i></span>
+                <h6 class="smalltext dashboard-bar white-t">Trip history</h6>
+            </div>
+        </div>
+
+        <div class="row pl-2 pr-2 mb-2">
+            <div class="col mb-1 mr-2  d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block">  <i class="fas fa-hands-helping"></i></span>
+                <h6 class="smalltext dashboard-bar white-t">SKAI Support</h6>
+            </div>
+
+
+            <div class="col mb-1 mr-2  d-box skaiblue-dash">
+                <span class="dashboard-icon mx-auto d-block">  <i class="fas fa-user-edit"></i></i></span>
+                <h6 class="smalltext dashboard-bar white-t">Safety</h6>
+            </div>
+        </div>
+
+        <div class="modal fade" id="statusModal">
+            <div class="midnight-left modal-dialog skaiblue-20">
+                <div class="modal-content">
+                    <div class="modal-header pt-2 pb-2 login">
+                        <h2 class="text-center mt-3">Confirmation</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class= "modal-body">
+
+                        <p class="smalltext">Your drone is enroute.</p>
+                        <div class="row no-gutters mt-4 mb-2">
+                            <div class="col-7">
+                                <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Drone arrival</h6></div></div>
+                            <div class="col-5">
+                                <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">12 minutes</h6></div>
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters mb-2">
+                            <div class="col-7">
+                                <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Arrival time</h6></div></div>
+                            <div class="col-5">
+                                <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">12:33pm</h6></div>
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters mb-4">
+                            <div class="col-7">
+                                <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Flight time</h6></div></div>
+                            <div class="col-5">
+                                <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">20 minutes</h6></div>
+                            </div>
+                        </div>
+
+                        <p class="smalltext">Your drone ALENA is 11 minutes away at the <span class="bold azure-t">Minneapolis Commuity and Technical College rooftop</span> SKAIbase location</p>
+                        <p class="smalltext">Your destination is <b>Madison, Wisconsin</b></p>
+                        <img src='images/drone-3.png' class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="statusModal">
+                <div class="midnight-left modal-dialog skaiblue-20">
+                    <div class="modal-content">
+                        <div class="modal-header pt-2 pb-2 login">
+                            <h2 class="text-center mt-3">Confirmation</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class= "modal-body">
+
+                            <p class="smalltext">Your drone is enroute.</p>
+                            <div class="row no-gutters mt-4 mb-2">
+                                <div class="col-7">
+                                    <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Drone arrival</h6></div></div>
+                                <div class="col-5">
+                                    <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">12 minutes</h6></div>
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters mb-2">
+                                <div class="col-7">
+                                    <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Arrival time</h6></div></div>
+                                <div class="col-5">
+                                    <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">12:33pm</h6></div>
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters mb-4">
+                                <div class="col-7">
+                                    <div class="pb-1 map-bar3 afterhours"><h6 class="smalltext white-t skew-fix mx-auto d-block pt-2 pl-2">Flight time</h6></div></div>
+                                <div class="col-5">
+                                    <div id="map-bar2" class="pb-1 elevation"><h6 class=" skew-fix smalltext afterhours-t mx-auto d-block pt-2 pl-2">20 minutes</h6></div>
+                                </div>
+                            </div>
+
+                            <p class="smalltext">Your drone ALENA is 11 minutes away at the <span class="bold azure-t">Minneapolis Commuity and Technical College rooftop</span> SKAIbase location</p>
+                            <p class="smalltext">Your destination is <b>Madison, Wisconsin</b></p>
+                            <img src='images/drone-2.png' class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
 </main>
 
     <footer>
         <!--<div class="fixed-bottom navbar-expand-sm navbar-dark sleekback">-->
         <div class="row fixed-bottom">
-            <div class="col grey footer-box"><a href="dashboard.html" class="sleekblack-t footer-link"><span class="big-icon"><i class="fas fa-home pt-2"></i></span><p class="footer-p sleekblack-t">Dashboard</p></a></div>
+            <div class="col clarity footer-box"><a href="dashboard.html" class="sleekblack-t footer-link"><span class="big-icon"><i class="fas fa-home pt-2"></i></span><p class="footer-p sleekblack-t">Dashboard</p></a></div>
 
-            <div class="col grey white-left footer-box"> <a href="login-main.html" class= "footer-link"><span class="big-icon">
+            <div class="col skaiblue-40 white-left footer-box"> <a href="login-main.html" class= "footer-link"><span class="big-icon">
                         <i class="fas fa-helicopter pt-2"></i></span><p class="footer-p sleekblack-t">Request</p></a></div>
 
-            <div class="col-4 grey white-left pl-0 footer-box"> <a href="login-main.html" class="sleekblack-t"><span class="big-icon"><i class="fas fa-location-arrow pt-2"></i></span><p class="footer-p sleekblack-t">Status</p></a></div>
+            <div class="col-4 grey white-left pl-0 footer-box"> <a href="#" data-toggle="modal" data-target="#statusModal" class="sleekblack-t"><span class="big-icon"><i class="fas fa-location-arrow pt-2"></i></span><p class="footer-p sleekblack-t">Status</p></a></div>
         </div>
     </footer>
 

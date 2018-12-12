@@ -29,6 +29,8 @@ html {
 .modal-header {
     border-radius: 0;
     border: 0;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
 }
 
 .close-light {
@@ -36,7 +38,7 @@ html {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: white;
+    color: black;
     text-shadow: 0 1px 0 #fff;
     opacity: .5;
 }
@@ -60,7 +62,7 @@ html {
 #map-bar {
     transform: skew(-20deg);
     width: 100%;
-    background-color: #005B7F;
+    background-color: #8EB7CF;
     color: #FFD105!important;
 }
 
@@ -70,7 +72,7 @@ html {
     width: 90%;
     top: 30px;
     left: 15px;
-    background-color: #231F20;
+    background-color: #BED8E6;
     color: #FFD105!important;
 }
 
@@ -91,6 +93,10 @@ html {
 
 .yellow-border {
     border-left: #FFD105 3px solid;
+}
+
+.white-border {
+    border-bottom: white 3px solid;
 }
 
 .blue-left {
@@ -131,7 +137,7 @@ h1 {
 
 h2 {
     font-weight: 300;font-family: termina, sans-serif;
-    font-size: calc(1.8em + 2.0vw);
+    font-size: calc(2em + 1.0vw);
     letter-spacing: calc(-1.4px - 0.1vw);
     /*text-transform: uppercase;*/
 }
@@ -139,15 +145,15 @@ h2 {
 h3 {
     font-weight: 300;
     font-family: termina, sans-serif;
-    font-size: calc(1.6em + 1.4vw);
-    letter-spacing: calc(-0.5px - 0.1vw);
+    font-size: calc(1.5em + 1vw);
+    letter-spacing: calc(-0.2px - 0.1vw);
     /*text-transform: uppercase;*/
 }
 
 h4 {
     font-weight: 300;
     font-family: termina, sans-serif;
-    font-size: calc(1.7em + 0.6vw);
+    font-size: calc(1.3em + 0.6vw);
     letter-spacing: calc(-0.5px - 0.1vw);
    }
 
@@ -288,6 +294,7 @@ p{
     top: 0;
     right: 0;
     background-color: rgba(28,47,66, 0.97);
+    border-left: #8EB7CF solid 5px;
     overflow-x: hidden;
     transition: 0.6s;
 
@@ -307,14 +314,13 @@ p{
     padding-top: 15px;
     text-decoration: none;
     font-weight: 100;
-    font-family: termina, sans-serif;
-    font-size: calc(0.8em + 1.3vw);
-    letter-spacing: calc(0.3px - 0.1vw);
+    font-family: termina, sans-serif, "Helvetica Neue Light", Arial, sans-serif;
+    font-size: calc(0.8em + 1vw);
+    letter-spacing: -0.2px;
     color: white;
     display: block;
     transition: 0.3s;
     text-align: left;
-    border-bottom: 1px solid black;
 
 }
 
@@ -350,8 +356,8 @@ a.closebtn {
 
 .overlay .closebtn {
     position: absolute;
-    top: 10px;
-    right: 45px;
+    top: -15px;
+    right: 30px;
     font-size: 40px;
 }
 
@@ -439,6 +445,11 @@ a:active {
 
 .skaiblue-40 {
     background: #E8F0F5;
+}
+
+.skaiblue-dash {
+    background: #1C2f42;
+    opacity: 0.7;
 }
 
 
@@ -590,7 +601,7 @@ a.grey {
     background: #005B7F;
     color: white;
     display:inline-block;
-    padding:.5em 2em;
+    padding:.5em 1.5em;
     text-decoration:none;
     font-weight: 200;
     font-style: italic;
@@ -672,12 +683,22 @@ line-height: 1.2em;}
     color: #231F20;
 }
 
+.white {
+    background-color: white;
+}
 
 
 
 .blue-icon {
     font-size: 2.5em;
     color: #005B7F;
+}
+
+.dashboard-icon {
+    font-size: 1.9em;
+    margin-top: 10px;
+    color: #8EB7CF;
+    text-align: center;
 }
 
 /*STICKY FOOTER*/
@@ -739,6 +760,11 @@ footer a:active {
      color: white;
  }
 
+ .gps {
+     position: absolute;
+     top: 300px;
+     left: 280px;
+ }
 
 
 
@@ -765,14 +791,13 @@ footer a:active {
 }
 
 .figure-caption {
+    opacity: 0.8;
     background-color: #231F20;
     color: white;
     font-style: italic;
     line-height: 1.1;
     font-size: 0.9rem;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
     text-align: right;
 }
 
@@ -811,4 +836,42 @@ footer a:active {
     color: #1C2f42;
     text-decoration: none;
 }
+
+.dashboard-bar {
+    margin-top: 15PX;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.d-box {
+    height: 100px;
+}
+
+.yellow {
+    border: solid 1px #1C2f42;
+}
+
+.border-btm {
+    border-bottom: 5px solid #1C2f42;
+}
+
+.bg {
+    background-image: url("../images/bg3.png");
+    background-position: top left;
+      background-repeat: repeat;
+    z-index: 20;}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+
+
+
+
+
 
