@@ -10,54 +10,534 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/cover.css">
+    <!--<link rel="stylesheet" href="styles/cover.css">-->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/lightbox.css">
 
 </head>
 
 <body class="">
-<div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="mb-auto">
 
+<nav class="navbar navbar-expand-md fixed-top bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+</nav>
+<div class="p-3 mx-auto flex-column">
+    <header class="">
+        <div class="row space">
+            <div class="col">
+                <a href="index.html"><img src="images/logo-png.png" width="250px" alt="Justin Splinter" class="logo fixed-top float-left img-fluid mt-4 ml-4"></a>
+            </div>
+        </div>
     </header>
 
-    <main role="main" class="row inner cover">
+    <div class="row look mb-4 mt-5">
+        <div class="col-1 border-green"></div>
         <div class="col">
-            <a href="index.html"><img src="images/arrow-down-blue.svg" width="195px" alt="Justin Splinter" class="fixed-top float-left img-fluid"></a>
-            <!--<img src="images/name.svg" width="450px" class="mb-3">-->
-            <h1 class="text-uppercase text-right">Coming soon</h1>
-            <p class="text-right">Can I get this done by April 9th? Stay tuned.<br>
-                In the meantime, check out <a href="http://mplscollegedesignshow.com/designers/splinter-personal.html" class="highlight">my Mpls College Design Show page.</a></p>
+            <h3 class="text-uppercase">Project 1 | <span class="bold">Skai</span></h3>
+            <p>SKAI is a comprehensive project, from logo and brand development, to creating a web style guide, sitemap, mockups, and then to code 4 different pages from the site. <a href="https://justinsplinter.github.io/skai/">View the site here.</a></p>
         </div>
-        <div class="col-3"></div>
-    </main>
+        <div class="col-sm-2"></div>
+    </div>
+
 
     <div class="row">
-        <div class="col">
-            <p class="position-fixed rotate sub-text ml-5"><a href="work.html" class="pr-3">Work</a> <a href="about.html" class="pr-3">About</a> <a href="contact.html" class="pr-3">Contact</a></p>
+        <div class="col-1"></div>
+        <button data-toggle="modal" data-target="#modal1" class="col-lg mdl">
+            <img src="images/skai-moodboard-thumb.jpg" alt="Skai Moodboard" width="400px" class="img-fluid hover-box"><h6 class="">Moodboard</h6>
+        </button>
+        <button type="button" data-toggle="modal" data-target="#modal2" class="col-lg mdl">
+            <img src="images/skai-style-guide.jpg" alt="Skai Style Guide" width="400px" class="img-fluid hover-box">
+            <h6 class="">Style guide</h6>
+        </button>
+        <button type="button" data-toggle="modal" data-target="#modal3" class="col-lg mdl">
+            <img src="images/skai-wireframes-mockup.jpg" alt="Skai Wireframes/Mockups" width="400px" class="img-fluid hover-box">
+            <h6 class="">Mockups + wireframes</h6>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog"
+             aria-labelledby="modal1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal2"
+                                class="close nxt btn-next">&#62;</button>
+                        <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="images/skai-moodboard.jpg" alt="Skai Moodboard" class="img-fluid">
+                    </div>
+                    <div class="modal-footer row">
+                        <h6 class="col-12">Initial Moodboard</h6>
+                        <p class="col-12">Concepting the brand: determing color palet, typograpghy, imagery, and general feeling for the brand. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2"></div>
+        <div class="modal fade" id="modal2" tabindex="-2" role="dialog"
+             aria-labelledby="modal2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal1"
+                                class="close prv btn-prev">&#60;</button>
+                        <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal3"
+                                class="close nxt btn-next">&#62;</button>
+                        <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="images/skai-style-guide-lg.jpg" alt="Look 1" class="img-fluid">
+                    </div>
+                    <div class="modal-footer row">
+                        <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                        <p class="col-12 subhead-5 gray">Model: ?</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!--<div class="row">-->
-    <!--<div class="col">-->
-    <!--<p class="position-fixed rotate2 sub-text ml-5">Bold | Driven | Unique</p>-->
-    <!--</div></div>-->
+    <div class="col-2"></div>
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog"
+         aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal4"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal2"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-wireframes.jpg" alt="Look 1" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                    <p class="col-12 subhead-5 gray">Model: ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--ROW 2-->
+
+<div class="row">
+    <div class="col-1"></div>
+    <button data-toggle="modal" data-target="#modal4" class="col-lg mdl">
+        <img src="images/skai-mobile.jpg" alt="Skai Moodboard" width="400px" class="img-fluid hover-box"><h6 class="">Mobile pages</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal5" class="col-lg mdl">
+        <img src="images/skai-thumbnail.jpg" alt="Skai homepage" width="400px" class="img-fluid hover-box">
+        <h6 class="">Homepage [desktop]</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal6" class="col-lg mdl invisible">
+        <img src="images/skai-wireframes-mockup.jpg" alt="Skai Wireframes/Mockups" width="400px" class="img-fluid hover-box">
+        <h6 class="">Mockups + wireframes</h6>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog"
+         aria-labelledby="modal4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal3"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal5"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-large.jpg" alt="Skai mobile page types" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12">Mobile page types</h6>
+                    <p class="col-12">Concepting the brand: determing color palet, typograpghy, imagery, and general feeling for the brand. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2"></div>
+    <div class="modal fade" id="modal5" tabindex="-2" role="dialog"
+         aria-labelledby="modal5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal4"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-home.JPG" alt="Look 1" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                    <p class="col-12 subhead-5 gray">Model: ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--PROJECT 2-->
+
+<div class="row look mb-4 mt-5">
+    <div class="col-1 border-green"></div>
+    <div class="col">
+        <h3 class="text-uppercase">Project 2 | <span class="bold">ArtWest</span></h3>
+        <p>I had the opportunity to help brand a new non-profit, ArtWest. The client wanted a clean, modern logo that wasn't stereotypically "African" and represented contemporary African art. Included below is the entire process, from logo conceptualization, through the website design process. Please note: I designed the website, but the website was developed as a Wordpress theme by another developer.</a></p>
+    </div>
+
+    <div class="col-1"></div>
+    <div class="col-sm-1"></div>
+
+</div>
+
+
+<div class="row">
+    <div class="col-1"></div>
+    <button data-toggle="modal" data-target="#modal7" class="col-lg mdl">
+        <img src="images/artwest-3.jpg" alt="Skai Moodboard" width="400px" class="img-fluid hover-box"><h6 class="">Moodboard</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal8" class="col-lg mdl">
+        <img src="images/artwest-mockup.jpg" alt="Skai Style Guide" width="400px" class="img-fluid hover-box">
+        <h6 class="">Style guide</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal9" class="col-lg mdl">
+        <img src="images/artwest-web-round-1.jpg" alt="ArtWest first round mockups" width="400px" class="img-fluid hover-box">
+        <h6 class="">First round web design</h6>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog"
+         aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal8"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-moodboard.jpg" alt="Skai Moodboard" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12">Initial Moodboard</h6>
+                    <p class="col-12">Concepting the brand: determing color palet, typograpghy, imagery, and general feeling for the brand. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2"></div>
+    <div class="modal fade" id="modal8" tabindex="-2" role="dialog"
+         aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal7"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal9"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-style-guide-lg.jpg" alt="Look 1" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                    <p class="col-12 subhead-5 gray">Model: ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-2"></div>
+<div class="modal fade" id="modal9" tabindex="-1" role="dialog"
+     aria-labelledby="modal2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal10"
+                        class="close nxt btn-next">&#62;</button>
+                <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal8"
+                        class="close prv btn-prev">&#60;</button>
+                <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="images/artwest-web-round-1.jpg" alt="Look 1" class="img-fluid">
+            </div>
+            <div class="modal-footer row">
+                <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                <p class="col-12 subhead-5 gray">Model: ?</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--ROW 2-->
+
+<div class="row">
+    <div class="col-1"></div>
+    <button data-toggle="modal" data-target="#modal10" class="col-lg mdl">
+        <img src="images/artwest-brochure.jpg" alt="Skai Moodboard" width="400px" class="img-fluid hover-box"><h6 class="">Print brochure</h6>
+    </button>
+    <button type="button" data-toggle="modal11" data-target="#modal5" class="col-lg mdl">
+        <img src="images/skai-thumbnail.jpg" alt="Skai homepage" width="400px" class="img-fluid hover-box">
+        <h6 class="">Homepage [desktop]</h6>
+    </button>
+    <button type="button" data-toggle="modal12" data-target="#modal6" class="col-lg mdl invisible">
+        <img src="images/skai-wireframes-mockup.jpg" alt="Skai Wireframes/Mockups" width="400px" class="img-fluid hover-box">
+        <h6 class="">Mockups + wireframes</h6>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal10" tabindex="-1" role="dialog"
+         aria-labelledby="modal4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal3"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal5"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/artwest-brochure.jpg" alt="Skai mobile page types" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12">Mobile page types</h6>
+                    <p class="col-12">Concepting the brand: determing color palet, typograpghy, imagery, and general feeling for the brand. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2"></div>
+    <div class="modal fade" id="modal5" tabindex="-2" role="dialog"
+         aria-labelledby="modal5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal4"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-home.JPG" alt="Look 1" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                    <p class="col-12 subhead-5 gray">Model: ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--PROJECT 3-->
+
+<div class="row look mb-4 mt-5">
+    <div class="col-1 border-green"></div>
+    <div class="col">
+        <h3 class="text-uppercase">Project 3 | <span class="bold">Other work</span></h3>
+        <p>Part of being bold, versatile, and unique means </a></p>
+    </div>
+    <div class="col-sm-2"></div>
+</div>
+
+
+<div class="row">
+    <div class="col-1"></div>
+    <button data-toggle="modal" data-target="#modal12" class="col-lg mdl">
+        <img src="images/pop-thumbnail.jpg" alt="Pop Goes the Noggin poster" width="400px" class="img-fluid hover-box"><h6 class="">Pop Goes the Noggin poster</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal13" class="col-lg mdl">
+        <img src="images/snapshot.jpg" alt="Snapshot" width="400px" class="img-fluid hover-box">
+        <h6 class="">Style guide</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal14" class="col-lg mdl">
+        <img src="images/poem-thumbnail.jpg" alt="ArtWest first round mockups" width="400px" class="img-fluid hover-box">
+        <h6 class="">First round web design</h6>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal12" tabindex="-1" role="dialog"
+         aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal13"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/pop-thumbnail.jpg" alt="Skai Moodboard" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12">Initial Moodboard</h6>
+                    <p class="col-12">Concepting the brand: determing color palet, typograpghy, imagery, and general feeling for the brand. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2"></div>
+    <div class="modal fade" id="modal13" tabindex="-2" role="dialog"
+         aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal12"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal14"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/snapshot.jpg" alt="Look 1" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                    <p class="col-12 subhead-5 gray">Model: ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-2"></div>
+<div class="modal fade" id="modal14" tabindex="-1" role="dialog"
+     aria-labelledby="modal2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal10"
+                        class="close nxt btn-next">&#62;</button>
+                <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal8"
+                        class="close prv btn-prev">&#60;</button>
+                <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="images/poem-lg.jpg" alt="Look 1" class="img-fluid">
+            </div>
+            <div class="modal-footer row">
+                <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                <p class="col-12 subhead-5 gray">Model: ?</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--ROW 2-->
+
+<div class="row">
+    <div class="col-1"></div>
+    <button data-toggle="modal" data-target="#modal4" class="col-lg mdl">
+        <img src="images/skai-mobile.jpg" alt="Skai Moodboard" width="400px" class="img-fluid hover-box"><h6 class="">Mobile pages</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal5" class="col-lg mdl">
+        <img src="images/skai-thumbnail.jpg" alt="Skai homepage" width="400px" class="img-fluid hover-box">
+        <h6 class="">Homepage [desktop]</h6>
+    </button>
+    <button type="button" data-toggle="modal" data-target="#modal6" class="col-lg mdl invisible">
+        <img src="images/skai-wireframes-mockup.jpg" alt="Skai Wireframes/Mockups" width="400px" class="img-fluid hover-box">
+        <h6 class="">Mockups + wireframes</h6>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog"
+         aria-labelledby="modal4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal3"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal5"
+                            class="close nxt btn-next">&#62;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-large.jpg" alt="Skai mobile page types" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12">Mobile page types</h6>
+                    <p class="col-12">Concepting the brand: determing color palet, typograpghy, imagery, and general feeling for the brand. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2"></div>
+    <div class="modal fade" id="modal5" tabindex="-2" role="dialog"
+         aria-labelledby="modal5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" data-toggle="modal" data-dismiss="modal" data-target="#modal4"
+                            class="close prv btn-prev">&#60;</button>
+                    <button type="button" class="close cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="images/skai-home.JPG" alt="Look 1" class="img-fluid">
+                </div>
+                <div class="modal-footer row">
+                    <h6 class="col-12 pearl heavy-weight">/// Look 2</h6>
+                    <p class="col-12 subhead-5 gray">Model: ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="row">
+    <div class="col">
+        <img src="images/name.svg" class="position-fixed side-logo ml-5" width="250px">
+        <p class="position-fixed rotate sub-text ml-5"><img src="images/arrow.svg" class="mr-2" width="15px"><a href="work.html" class="pr-3">Work</a> <a href="about.html" class="pr-3">About</a> <a href="contact.html" class="pr-3">Contact</a></p>
+    </div>
+</div>
+
 
 
 
     <footer class="mastfoot mt-auto">
         <div class="fixed-bottom">
-            <img src="images/splinter-cropped.svg" width="500px" class="float-right img-fluid">
+            <img src="images/splinter-cropped.svg" width="500px" class="opa-50 float-right img-fluid">
         </div>
         <div class="inner">
             <div class="row">
                 <div class="col">
-                    <p class="position-fixed  rotate2 sub-text ml-5"<hr></p>
+                    <p class="position-fixed  rotate2 sub-text ml-5"</p>
                 </div>
             </div>
 
         </div>
     </footer>
+</div>
+
 
 
 </div>
