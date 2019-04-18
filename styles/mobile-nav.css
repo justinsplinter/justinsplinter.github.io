@@ -1,0 +1,58 @@
+/*MOBILE NAV STYLE*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background: black url("../images/seamless-background-3.png") repeat;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.6s;
+}
+
+.overlay ul.h5 li {
+    list-style-type: none;
+}
+
+.overlay h5 {
+    font-size: calc(22px + 0.3vw);
+}
+
+.overlay a.top-links{
+    font-size: calc(24px + 0.7vw);
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 4%;
+}
+
+.overlay img {
+    min-width: 160px;
+    max-width: 190px;
+    padding: 0 auto;
+}
+
+a.closebtn {
+    border: none;
+    font-size: calc(24px + 0.7vw);
+    margin: 5% 0 0 3%;
+}
+
+.mobile-nav span i:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.mobile-nav span i {
+    color: #e2dccd;
+    display: inline-block;
+    padding: .5rem .5rem;
+    margin: 3rem 1rem 1rem 0;
+    /*border: 1px solid #dbdb2a;*/
+    background-color: #000000;
+}
+

@@ -1,0 +1,90 @@
+.modal{
+    overflow-y:auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.modal-dialog-centered {
+    max-width: 85vh;
+}
+.modal .modal-content .close:focus{
+    outline: none;
+}
+.modal .modal-content .cls{position: absolute;
+    font-family: 'Muli', sans-serif;
+    right: .5em;
+    font-size: 3em;
+    color: #000000;
+    opacity: 1;
+    text-shadow: none}
+
+.modal .modal-content .close:hover{
+    color: #1d1d1d;
+}
+.modal .modal-content .prv{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: .5em;
+    margin: auto 0;
+    color: #000000;
+    font-size: 3em;
+    opacity: 1;
+    text-shadow: none;
+}
+.modal .modal-content .nxt{
+    position: absolute;
+    right: .5em;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    color: #000000;
+    font-size: 3em;
+    opacity: 1;
+    text-shadow: none;
+}
+.modal-body{
+    padding: 0!important;
+}
+.modal-footer{
+    background-color: white;
+    border-top: 1px solid black;
+    padding-bottom: 0;
+    border-radius: 0!important;
+}
+.modal-footer h3, .modal-footer p {
+    text-align: left;
+}
+
+
+.modal-footer a:hover{
+    color: #D9D92C!important;
+    text-decoration: none;
+}
+
+.modal .row{
+    margin: 0!important;
+}
+
+.mdl{
+    background-color: transparent;
+    border: none;
+}
+.mdl:focus{
+    outline: none;
+}
+.hover-box:focus{
+    color: transparent;
+}
+.fade {
+    transition: opacity .3s linear!important;
+}
+
+.modal-body {
+    max-height: 95vh;
+    overflow-y: auto;
+}
+
+.close {
+    font-weight: 200;
+
+}
