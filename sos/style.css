@@ -3,7 +3,7 @@ body {
     font-family: "futura-pt",sans-serif;
 }
 
-.cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("images/shirley-3.jpg");
+.cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/shirley-3.jpg");
 }
 
 nav, h1, h2, h3, h4, h5 {
@@ -44,16 +44,16 @@ nav, h1, h2, h3, h4, h5 {
     background-color: white!important;
 }
 
-.cover-heading {
-    color: white;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    font-family: "futura-pt",sans-serif;
-    margin: 0;
-    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9)!important;
-    line-height: 100%;
-    letter-spacing: 10px;
-}
+/*.cover-heading {*/
+    /*color: white;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 2.5rem;*/
+    /*font-family: "futura-pt",sans-serif;*/
+    /*margin: 0;*/
+    /*text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9)!important;*/
+    /*line-height: 100%;*/
+    /*letter-spacing: 10px;*/
+/*}*/
 
 .cover-heading2 {
     color: white;
@@ -106,9 +106,9 @@ span .black {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 48px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: -0.5px;
 }
 
 h5 {
@@ -126,10 +126,10 @@ h5 {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: rgba(28,47,66, 0.97);
-    border-left: #8EB7CF solid 5px;
+    background-color: rgba(0,0,0, 0.9);
+    border-left: black solid 5px;
     overflow-x: hidden;
-    transition: 0.6s;
+    transition: 0.7s;
 
 }
 
@@ -147,7 +147,7 @@ h5 {
     padding-top: 15px;
     text-decoration: none;
     font-weight: 100;
-    font-family: termina, sans-serif, "Helvetica Neue Light", Arial, sans-serif;
+    font-family: "futura-pt",sans-serif;
     font-size: calc(0.8em + 1vw);
     letter-spacing: -0.2px;
     color: white;
@@ -159,9 +159,9 @@ h5 {
 
 a {
     text-decoration: none;
-    font-weight: 700;
-    font-family: acumin-pro, sans-serif;
-    letter-spacing: calc(0.1px - 0.1vw);
+    font-weight: 300;
+    font-family: "futura-pt",sans-serif;
+    letter-spacing: -1px;
     color: #006B94;}
 
 a.closebtn {
@@ -173,7 +173,7 @@ a.closebtn {
 }
 
 .overlay a:hover {
-    color: #FFD105;}
+    color: red;}
 
 .big-icon i:hover {
     color: white;
