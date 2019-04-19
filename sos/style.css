@@ -1,13 +1,16 @@
 body {
     background-color: black!important;
     font-family: "futura-pt",sans-serif;
-    color: black;
+}
+
+.cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("images/shirley-3.jpg");
 }
 
 nav, h1, h2, h3, h4, h5 {
     font-family: "futura-pt",sans-serif;
     /*font-weight: 300;*/
 }
+
 
 .navbar {
     vertical-align: auto;
@@ -19,7 +22,7 @@ nav, h1, h2, h3, h4, h5 {
     float: left;
     font-weight: 400;
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, .5);
+    /*color: rgba(255, 255, 255, .5);*/
     background-color: transparent;
     border-bottom: .25rem solid transparent;
 
@@ -30,9 +33,6 @@ nav, h1, h2, h3, h4, h5 {
     border-bottom-color: yellow;
 }
 
-.nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
-}
 
 .nav-masthead .active {
     color: #fff;
@@ -91,17 +91,14 @@ span .black {
     color: yellow;
 }
 
-.bg-dark {
-    background-color: black!important;
-}
 
 .nav-link {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     letter-spacing: -0.5px;
 }
 
 .nav-link a:hover {
-    color: yellow;
+    color: red;
 }
 
 .navbar {
@@ -119,4 +116,80 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 0.2px;
     line-height: 160%;
+}
+
+/*NAVBAR STYLE*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(28,47,66, 0.97);
+    border-left: #8EB7CF solid 5px;
+    overflow-x: hidden;
+    transition: 0.6s;
+
+}
+
+.overlay-content {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.overlay a {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: termina, sans-serif, "Helvetica Neue Light", Arial, sans-serif;
+    font-size: calc(0.8em + 1vw);
+    letter-spacing: -0.2px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: acumin-pro, sans-serif;
+    letter-spacing: calc(0.1px - 0.1vw);
+    color: #006B94;}
+
+a.closebtn {
+    border: none;
+}
+
+.overlay img {
+    margin-bottom: 5%;
+}
+
+.overlay a:hover {
+    color: #FFD105;}
+
+.big-icon i:hover {
+    color: white;
+}
+
+.big-icon i:active {
+    color: white;
+}
+
+.overlay a:active {
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    font-size: 40px;
 }
