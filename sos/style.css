@@ -7,6 +7,11 @@ body {
     color: white;
 }
 
+.lightgrey {
+    color: lightgrey;
+}
+
+
 .cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/shirley-3.jpg");
 }
 
@@ -46,6 +51,10 @@ nav, h1, h2, h3, h4, h5 {
 .strip {
     background-color: red;
     background-blend-mode: multiply;
+}
+
+.text-muted {
+    color: dimgrey!important;
 }
 
 
@@ -128,9 +137,22 @@ nav, h1, h2, h3, h4, h5 {
     background-size: cover;
 }
 
+.loonlake {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/house-2.jpg);
+    background-size: cover;
+}
+
+.loonlake2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/hospital-room.jpg);
+    background-size: cover;
+}
+
 .red-border {
-    border-left: red 10px solid;
-    mix-blend-mode: overlay;
+    border-top: indianred 2px solid;
 }
 
 
@@ -267,7 +289,6 @@ p {
 
 .fixed-nav {
     height: 150px;
-    background: #1c1c1c;
     margin-bottom: 30px;
     padding-top: 1vh;
 }
@@ -290,7 +311,7 @@ p {
 
 a {
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 800;
     color: red;}
 
 a:hover {
@@ -327,4 +348,8 @@ a.closebtn {
     top: -15px;
     right: 30px;
     font-size: 40px;
+}
+
+.spacer {
+    margin-top: 100px;
 }
