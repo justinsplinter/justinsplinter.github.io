@@ -2,53 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SOS Theater | Minneapolis </title>
+    <title>SOS Theater | Pop Goes the Noggin </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/ilm5mpw.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
+<nav class="fixed-nav">
+    <div class="row">
+        <div class="col">
+            <a href="index.html"><img src="images/logo3.png" class="img-fluid mx-auto d-block" width="220px"></a>
+        </div>
+
+        <div class="pr-5">
+            <span style="font-size:40px;cursor:pointer; color:white;" class="float-right" onclick="openNav()">&#9776;</span></div>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content ">
+            <a href="index.html"><img src="images/logo3.png" width="225px"></a><br>
+            <a href="about.html">About SOS Theater</a>
+            <a href="apply.html">Prospective clients</a>
+            <a href="pop.html">Pop Goes the Noggin</a>
+            <a href="rdq.html">Roller Derby Queen</a>
+            <a href="media.html">Media</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
 
 <div class="container">
 
-                    <nav class="fixed-nav">
-                        <div class="row">
-                            <div class="col">
-                                <a href="index.html"><img src="images/logo3.png" class="img-fluid mx-auto d-block" width="250px"></a>
-                            </div>
 
-                            <div class="col-1">
-                                <span style="font-size:40px;cursor:pointer;" class="float-right" onclick="openNav()">&#9776;</span></div>
-                        </div>
-                            <div id="myNav" class="overlay">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                <div class="overlay-content ">
-                                    <a href="index.html"><img src="images/logo3.png" width="250x"></a><br>
-                                    <a href="about.html">About SOS Theater</a>
-                                    <a href="apply.html">Prospective clients</a>
-                                    <a href="pop.html">Pop Goes the Noggin</a>
-                                    <a href="rdq.html">Roller Derby Queen</a>
-                                    <a href="media.html">Media</a>
-                                    <a href="contact.html">Contact</a>
-                                </div>
-                            </div>
-                    </nav>
-
-            </header>
 
     <main role="main">
 
-<div class="row">
-    <div class="col p-5">
-        <h1 class="">Mission Statement</h1>
-                    <h5 class="white">S.O.S. Theater is a new production company dedicated to producing evocative works that present fresh and entertaining perspectives of this ludicrous thing called life.</h5>
-    </div>
-        <div class="col-sm-6 featurette missonstatement img-fluid mx-auto">
-            <h2 class="""">sos</h2>
+<div class="row pl-5">
+    <!--<div class="col my-auto">-->
+        <!--<h6 class="subhead text-right mb-5">SOS Theater proudly presents our latest production</h6>-->
+        <!--<img src="images/pop.svg" width="350px" class="img-fluid mb-5 float-right">-->
+        <!--<div class="clearfix"></div>-->
+        <!--<h5 class="text-center">A new play that speaks to the special needs in all of us.</h5>-->
+    <!--</div>-->
+        <div class="col img-fluid">
+            <img src="images/new-poster.jpg" class="img-fluid">
+
         </div>
     </div>
-
 
 
             <!-- START THE FEATURETTES -->
@@ -146,7 +148,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script>
     function openNav() {
-        document.getElementById("myNav").style.width = "35%";
+        document.getElementById("myNav").style.width = "50%";
     }
 
     function closeNav() {

@@ -3,6 +3,10 @@ body {
     font-family: "futura-pt",sans-serif;
 }
 
+.white {
+    color: white;
+}
+
 .cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/shirley-3.jpg");
 }
 
@@ -39,9 +43,100 @@ nav, h1, h2, h3, h4, h5 {
     border-bottom-color: #fff;
 }
 
+.strip {
+    background-color: red;
+    background-blend-mode: multiply;
+}
+
+
+.featurette h2 {
+    font-size: 8vw;
+    font-family: "futura-pt";
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 3vw;
+    text-transform: uppercase;
+    color: orangered;
+    mix-blend-mode: overlay;
+    padding: 0;
+    margin: 0;
+    line-height: 0.9;
+    /*transform: rotate(270deg);*/
+}
+
+.subhead {
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: lightgrey;
+    text-transform: uppercase;
+}
+
+.goalone {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/snowshoe-web.jpg);
+    background-size: cover;
+}
+
+.goaltwo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/spoon.jpg);
+    background-size: cover;
+}
+
+.goalthree {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/nuns.jpg);
+    background-size: cover;
+}
+
+
+.goalfour {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/bathtub-eb.jpg);
+    background-size: cover;
+}
+
+.goalfive {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/guys.jpg);
+    background-size: cover;
+}
+
+.goalsix {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/beach.jpg);
+    background-size: cover;
+}
+
+.goalseven {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/lepsche2.png);
+    background-size: cover;
+}
+
+.missonstatement {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(images/soldier.jpg);
+    background-size: cover;
+}
+
+.red-border {
+    border-left: red 10px solid;
+    mix-blend-mode: overlay;
+}
+
 
 .container {
-    background-color: white!important;
+    background-color: black!important;
+    color: white;
 }
 
 /*.cover-heading {*/
@@ -66,11 +161,19 @@ letter-spacing: 1px;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9)!important;}
 
 .btn-danger {
-    background-color: yellow;
+    background-color: red;
     border: none;
-    color: black;
+    color: white;
     text-shadow: none;
-    font-family: "futura-pt",sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 0;
+}
+
+.btn-danger:hover {
+    background-color: white;
+    color: black;
 }
 
 .lead {
@@ -99,23 +202,45 @@ span .black {
 
 .nav-link a:hover {
     color: red;
+    color: #333333;
 }
 
 .navbar {
     border-bottom: 15px white solid;
 }
 
+.internal-footer {
+    background-color: #333333;
+    padding-bottom: 4rem;
+}
 h1 {
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: -0.5px;
 }
 
-h5 {
-    font-size: 1.4rem;
+h4 {
+    font-size: 1.1rem;
     text-transform: uppercase;
-    letter-spacing: 0.2px;
-    line-height: 160%;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-size: 1.7rem;
+    letter-spacing: -1px;
+    font-weight: 100;
+}
+
+h6 {
+    font-size: 1.1rem;
+    letter-spacing: -0.5px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 2rem;
+    letter-spacing: -0.2px;
+    font-weight: 100;
 }
 
 /*NAVBAR STYLE*/
@@ -127,7 +252,6 @@ h5 {
     top: 0;
     right: 0;
     background-color: rgba(0,0,0, 0.9);
-    border-left: black solid 5px;
     overflow-x: hidden;
     transition: 0.7s;
 
@@ -139,6 +263,13 @@ h5 {
     width: 100%;
     text-align: left;
     padding-left: 20px;
+}
+
+.fixed-nav {
+    height: 150px;
+    background: #1c1c1c;
+    margin-bottom: 30px;
+    padding-top: 1vh;
 }
 
 .overlay a {
@@ -160,9 +291,13 @@ h5 {
 a {
     text-decoration: none;
     font-weight: 300;
-    font-family: "futura-pt",sans-serif;
-    letter-spacing: -1px;
-    color: #006B94;}
+    color: red;}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
 
 a.closebtn {
     border: none;
