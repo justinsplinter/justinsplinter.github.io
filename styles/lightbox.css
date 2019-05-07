@@ -80,7 +80,7 @@
 }
 
 .modal-body {
-    max-height: 95vh;
+    max-height: 80vh;
     overflow-y: auto;
 }
 
