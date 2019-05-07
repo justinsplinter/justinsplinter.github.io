@@ -1,0 +1,89 @@
+
+body, html {
+    height: 100%;
+    background: white!important;
+}
+
+h1 {
+    font-size: calc(28px + 4.2vw);
+    line-height: calc(26px + 4.2vw)
+}
+
+
+.lead-c {
+    background: url('../images/pop-background.jpg') no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+
+.lead-e {
+    height: 3%;
+    background-color: lightgrey;}
+
+
+.lead-d {
+    background: url('../images/pop-background.jpg') no-repeat center center fixed;
+    background-color: orangered;
+    background-blend-mode: multiply;
+    height: 4vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+
+.lead-f {
+    background: url('../images/rdq-background.jpg') no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+
+
+
+/* Fixed header and footer.
+* --------------------------------------- */
+#header {
+    position:fixed;
+    height: 130px;
+    display:block;
+    background: black;
+    width: 100%;
+    z-index:9;
+    text-align:center;
+    color: #f2f2f2;
+    margin-left: -15px;
+    border-left: 15px solid black;
+    padding-top: 10px;
+}
+
+.container {
+    margin-top: 130px;
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+#header{
+    top:0px;
+}
+#footer, #mobile-footer{
+    background: black;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.weight {
+    font-weight: 500;
+}
+/*.container-fluid {*/
+    /*padding-left: 0!important;*/
+    /*padding-right: 0!important;*/
+/*}*/
+
+.mobile-footer {display: none;}
+
+@media (max-width: 575.98px) {
+    .mobile-footer {display: block;}
+    .main-footer {display: none;}
+}

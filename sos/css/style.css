@@ -12,7 +12,7 @@ body {
 }
 
 
-.cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/shirley-3.jpg");
+.cover-home {background: linear-gradient(290deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/shirley-3.jpg");
 }
 
 nav, h1, h2, h3, h4, h5 {
@@ -59,7 +59,7 @@ nav, h1, h2, h3, h4, h5 {
 
 
 .featurette h2 {
-    font-size: 8vw;
+    font-size: 11vw;
     font-family: "futura-pt";
     text-align: center;
     font-weight: 900;
@@ -83,21 +83,21 @@ nav, h1, h2, h3, h4, h5 {
 .goalone {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/snowshoe-web.jpg);
+    background: url(../images/snowshoe-web.jpg);
     background-size: cover;
 }
 
 .goaltwo {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/spoon.jpg);
+    background: url(../images/spoon.jpg);
     background-size: cover;
 }
 
 .goalthree {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/nuns.jpg);
+    background: url(../images/nuns.jpg);
     background-size: cover;
 }
 
@@ -105,50 +105,62 @@ nav, h1, h2, h3, h4, h5 {
 .goalfour {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/bathtub-eb.jpg);
+    background: url(../images/bathtub-eb.jpg);
     background-size: cover;
 }
 
 .goalfive {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/guys.jpg);
+    background: url(../images/guys.jpg);
     background-size: cover;
 }
 
 .goalsix {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/beach.jpg);
+    background: url(../images/beach.jpg);
     background-size: cover;
 }
 
 .goalseven {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/lepsche2.png);
+    background: url(../images/lepsche2.png);
     background-size: cover;
 }
 
 .missonstatement {
-    padding-top: 100px;
+    margin-top: 100px;
+    padding-top: 12vh;
     padding-bottom: 100px;
-    background: url(images/soldier.jpg);
+    background: url(../images/soldier.jpg)no-repeat center center fixed;
     background-size: cover;
+    border: 20px black solid;
 }
 
 .loonlake {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/house-2.jpg);
+    background: url(../images/house-2.jpg) no-repeat center center fixed;
     background-size: cover;
+    border: 20px black solid;
 }
 
 .loonlake2 {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(images/hospital-room.jpg);
+    background: url(../images/hospital-room.jpg) no-repeat center center fixed;
     background-size: cover;
+    border: 20px black solid;
+}
+
+.loonlake3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/hospital-room-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    border: 20px black solid;
 }
 
 .red-border {
@@ -191,11 +203,29 @@ letter-spacing: 1px;
     text-transform: uppercase;
     letter-spacing: 3px;
     border-radius: 0;
+    padding: 6px;
+
 }
 
 .btn-danger:hover {
     background-color: white;
     color: black;
+}
+
+.btn-reverse {
+    background-color: white;
+    border: none;
+    color: black;
+    text-shadow: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 0;
+}
+
+.btn-reverse:hover {
+    background-color: red;
+    color: white;
 }
 
 .lead {
@@ -219,7 +249,8 @@ span .black {
 
 .nav-link {
     font-size: 1.5rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.2px;
+    font-weight: 100;
 }
 
 .nav-link a:hover {
@@ -227,14 +258,12 @@ span .black {
     color: #333333;
 }
 
-.navbar {
-    border-bottom: 15px white solid;
+.bg-dark {
+    background: transparent!important;
 }
 
-.internal-footer {
-    background-color: #333333;
-    padding-bottom: 4rem;
-}
+
+
 h1 {
     font-size: 48px;
     text-transform: uppercase;
@@ -249,8 +278,9 @@ h4 {
 
 h5 {
     font-size: 1.7rem;
-    letter-spacing: -1px;
+    letter-spacing: -0.4px;
     font-weight: 100;
+
 }
 
 h6 {
@@ -260,9 +290,10 @@ h6 {
 }
 
 p {
-    font-size: 2rem;
-    letter-spacing: -0.2px;
-    font-weight: 100;
+    font-size: 1.7rem;
+    letter-spacing: -0.4px;
+    font-weight: 200;
+    line-height: 2.5rem;
 }
 
 /*NAVBAR STYLE*/
@@ -288,9 +319,11 @@ p {
 }
 
 .fixed-nav {
-    height: 150px;
-    margin-bottom: 30px;
-    padding-top: 1vh;
+    height: 100px;
+}
+
+.border1 {
+    border-left: 15px black solid;
 }
 
 .overlay a {
@@ -353,3 +386,56 @@ a.closebtn {
 .spacer {
     margin-top: 100px;
 }
+
+i {font-size: 36px; color: white;}
+
+.fp-tableCell {
+    padding-top: 120px;
+}
+
+container {
+    background: transparent!important;
+}
+
+.fifty {
+    margin-top: 125px;
+}
+
+.opacity-50 {
+    opacity: 0.2;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+.mb-10 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;}
+
+footer h3 {
+    font-size: calc(12px + 0.5vw)!important;
+}
+
+footer h4 {
+    font-size: 12px!important;
+}
+
+.mt6 {
+    padding-top: 30vh;
+}
+
+
+
+
+
+
+i {
+    color: white;
+font-size: 16px;}
+
+
+
+/*//CUSTOM STYLES*/
+
+
