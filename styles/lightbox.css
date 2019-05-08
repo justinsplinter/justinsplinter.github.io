@@ -5,8 +5,8 @@
     width: 100%; }
 
 .modal-dialog-centered {
-    max-width: 95vw;
-    max-height: 95vh;
+    max-width: 60vw;
+    max-height: 60vh;
 }
 .modal .modal-content .close:focus{
     outline: none;
@@ -16,7 +16,7 @@
     right: .5em;
     font-size: 2em;
     color: #000000;
-    opacity: 0.8;
+    opacity: 0.9;
     text-shadow: none;}
 
 .modal .modal-content .close:hover{
@@ -79,7 +79,7 @@
     color: transparent;
 }
 .fade {
-    transition: opacity .2s linear;
+    transition: opacity .2s;
   }
 
 .modal-body {
