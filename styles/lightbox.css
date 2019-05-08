@@ -1,44 +1,46 @@
 .modal{
     overflow-y:auto;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-}
+    height: 100%;
+    width: 100%; }
 
 .modal-dialog-centered {
-    max-width: 75vw;
+    max-width: 95vw;
+    max-height: 95vh;
 }
 .modal .modal-content .close:focus{
     outline: none;
 }
 .modal .modal-content .cls{position: absolute;
-    font-family: 'Muli', sans-serif;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
     right: .5em;
-    font-size: 3em;
+    font-size: 2em;
     color: #000000;
-    opacity: 1;
-    text-shadow: none}
+    opacity: 0.8;
+    text-shadow: none;}
 
 .modal .modal-content .close:hover{
-    color: #1d1d1d;
+    color: #D9D92C;
 }
 .modal .modal-content .prv{
     position: absolute;
     top: 0;
     bottom: 0;
-    left: .5em;
+    left: 0;
     margin: auto 0;
     color: #000000;
-    font-size: 3em;
+    font-size: 2em;
     opacity: 1;
     text-shadow: none;
 }
 .modal .modal-content .nxt{
     position: absolute;
-    right: .5em;
+    right: 0;
     top: 0;
     bottom: 0;
     margin: auto 0;
     color: #000000;
-    font-size: 3em;
+    font-size: 2em;
     opacity: 1;
     text-shadow: none;
 }
@@ -77,8 +79,8 @@
     color: transparent;
 }
 .fade {
-    transition: opacity .5s ease!important;
-}
+    transition: opacity .2s linear;
+  }
 
 .modal-body {
     /*max-height: 60vh;*/
@@ -86,6 +88,6 @@
 }
 
 .close {
-    font-weight: 200;
+    font-weight: 100;
 
 }
