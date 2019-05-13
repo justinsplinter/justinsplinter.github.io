@@ -26,6 +26,12 @@ h1 {
     line-height: calc(32px + 2vw);
 }
 
+.splash {
+    font-size: 13vw;
+    font-weight: 700;
+    color: white;
+}
+
 h2 {
     font-weight: 100;
     text-transform: uppercase;
