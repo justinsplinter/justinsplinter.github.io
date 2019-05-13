@@ -5,8 +5,8 @@
     width: 100%; }
 
 .modal-dialog-centered {
-    max-width: 60vw;
-    max-height: 60vh;
+    max-width: 85%;
+    max-height: 85%;
 }
 .modal .modal-content .close:focus{
     outline: none;
