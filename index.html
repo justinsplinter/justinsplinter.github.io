@@ -20,17 +20,27 @@
 </head>
 
 <div id="overlayer">
-    <div class="banner">
-    <video autoplay loop controls="false" muted playsinline class="banner__video"
-           poster="images/preview.jpg">
-        <source src="" type="video/webm" width="100%" height="auto">
-        <source src="video/splash10.mp4" type="video/mp4" width="100%" height="auto">
-    </video>
-    <div class="lds-dual-ring mt-5"></div>
+
+    <div class="banner" id="hello">
+        <h1 class="splash text-right">What's up? I'm <span class="lime bold">Justin</span>.</h1>
+    </div>
+    <div class="banner" id="hello1">
+        <h1 class="splash">I <span class="lime bold">design</span> + <span class="lime bold">develop</span> websites.</h1>
+    </div>
+    <div class="banner" id="hello2">
+        <h1 class="splash">Let's do this. Let's be <span class="lime bold">bold</span>.</h1>
     </div>
 </div>
-<span class="loader-inner"></span>
-</span>
+
+
+
+
+<!--<div id="overlayer2">-->
+    <!--<div class="banner">-->
+        <!--<h1 class="splash ">Let's Do This Again</h1>-->
+        <!--<div class="lds-dual-ring mt-5"></div>-->
+    <!--</div>-->
+<!--</div>-->
 
 <body class="">
 <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -42,7 +52,7 @@
         <div class="col-1"></div>
         <div class="col">
                 <img src="images/corner-7.svg" width="40px" alt="Justin Splinter" class="inner-logo fixed-top float-left img-fluid">
-                <img src="images/name.svg" width="500px" class="mb-3 float-right img-fluid">
+                <img src="images/name.svg" width="550px" class="mb-3 float-right img-fluid">
 
                 <!--<h1 class="text-uppercase text-right">Justin <span class="bold">Splinter</span></h1>-->
                 <p class="sub-text2 text-right clearboth ">  Web + Graphic Design<br><span class="bold">Expect something different</span><br>
@@ -92,10 +102,16 @@
 
 <script>
     $(window).load(function() {
-        $(".loader").delay(5000).fadeOut("slow");
-        $("#overlayer").delay(5000).fadeOut("slow");
+        $(".loader").delay(1000).fadeOut("slow");
+        $("#hello").delay(3000).fadeOut("slow");
+        $("#hello1").delay(6000).fadeOut("slow");
+        $("#hello2").delay(9000).fadeOut("slow");
+        $("#overlayer").delay(11000).fadeOut("slow");
     })
 </script>
+
+
+
 
 </body>
 </html>
