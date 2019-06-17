@@ -29,10 +29,16 @@ h1 {
 }
 
 .splash {
-    font-size: 5.5vw;
-    line-height: 5.5vw;
+    font-size: 4.0vw;
+    line-height: 4.0vw;
     font-weight: 200;
     color: black;
+}
+
+.splash-2 {
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    font-weight: 400;
 }
 
 h2 {
