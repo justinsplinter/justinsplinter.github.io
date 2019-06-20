@@ -100,7 +100,7 @@ h4 {
 /*}*/
 
 h5 {
-    font-size: calc(18px + 0.2vw);
+    font-size: calc(16px + 0.3vw);
     /*font-size: 18px;*/
     letter-spacing: 10px;
     color: grey;
@@ -167,4 +167,9 @@ button:hover {
     background-color: #007FAD;
     color: white;
 
+}
+
+@media (max-width: 575.98px) {
+    h1 { font-size: 50px; letter-spacing: -2px;}
+    h2 { font-size: 36px;}
 }
