@@ -129,13 +129,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3398" />
+          <entry key="css" value="3680" />
           <entry key="html" value="12465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3398" />
+          <entry key="CSS" value="3680" />
           <entry key="HTML" value="12465" />
         </counts>
       </usages-collector>
@@ -146,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neka-style/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1296">
-              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+            <state relative-caret-position="1746">
+              <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -155,8 +155,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neka-style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="172" column="22" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+            <state relative-caret-position="924">
+              <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -174,7 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>space</find>
       <find>container</find>
       <find>vw</find>
       <find>btn</find>
@@ -204,6 +203,7 @@
       <find>banner</find>
       <find>hello</find>
       <find>splash</find>
+      <find>bold</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -369,12 +369,12 @@
       <workItem from="1556734676422" duration="33692000" />
       <workItem from="1556999101706" duration="29305000" />
       <workItem from="1560810398045" duration="2972000" />
-      <workItem from="1560915139586" duration="3008000" />
+      <workItem from="1560915139586" duration="4087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388957000" />
+    <option name="totallyTimeSpent" value="390036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="0" width="1805" height="1250" extended-state="0" />
@@ -718,15 +718,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neka-style/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
-          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+        <state relative-caret-position="1746">
+          <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neka-style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="172" column="22" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+        <state relative-caret-position="924">
+          <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
         </state>
       </provider>
     </entry>

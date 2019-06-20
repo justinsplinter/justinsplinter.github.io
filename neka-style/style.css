@@ -64,6 +64,7 @@ h1 {
 h2 {
     font-size: calc(28px + 2vw);
     letter-spacing: calc(-0.5px + -0.1vw);
+    font-weight: 100;
 }
 
 
@@ -74,7 +75,8 @@ h2 {
 
 h3 {
     font-size: calc(25px + 1.2vw);
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
+    font-weight: 100;
 }
 
 /*h4 {*/
@@ -84,7 +86,7 @@ h3 {
 /*}*/
 
 h4 {
-    font-size: calc(26px + 0.3vw);
+    font-size: calc(22px + 0.5vw);
     letter-spacing: calc(-0.3px);
     line-height: calc(40px + 0.6vw);
     font-weight: 300;
@@ -118,14 +120,14 @@ h6 {
 }
 
 p {
-    font-size: calc(22px + 0.2vw);
+    font-size: calc(20px + 0.3vw);
     letter-spacing: -0.3px;
 
 }
 
 .bold {
     font-family: futura-pt, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -170,6 +172,9 @@ button:hover {
 }
 
 @media (max-width: 575.98px) {
-    h1 { font-size: 46px; letter-spacing: -2px;}
-    h2 { font-size: 36px;}
+    h1 { font-size: 46px; letter-spacing: -1.5px; line-height: 46px;}
+    h2 { font-size: 34px;}
+    h3 {font-size: 28px; letter-spacing: -1.5px;}
+    h4 { font-size: 22px;}
+    p {font-size: 20px; font-weight: 400; letter-spacing: -0.5px;}
 }
