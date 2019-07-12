@@ -12,7 +12,7 @@ body, html {
     height:100vh;
     position:absolute;
     z-index:2;
-    background: white;
+    background: black;
 }
 
 #black-hello {
@@ -46,7 +46,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fade 0.4s ease-in backwards;
+    animation: fade 1s ease-in backwards;
 }
 
 @keyframes fade {
