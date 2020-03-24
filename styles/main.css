@@ -36,6 +36,10 @@ h1 {
     line-height: calc(32px + 2vw);
 }
 
+.mb-6 {
+    margin-bottom: 10%;
+}
+
 .splash {
     font-size: 10vh;
     line-height: 15vh;
