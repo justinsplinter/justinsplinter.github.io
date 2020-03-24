@@ -14,7 +14,15 @@ body {
     100% { opacity: 1; }
 }
 
-
+::-moz-selection { /* Code for Firefox */
+    color: #d8db00;
+    background: black;
+  }
+  
+  ::selection {
+    color: #d8db00;
+    background: black;
+  }
 
 /*.cover {padding-top:100px;}*/
 .space {height:100px;}
