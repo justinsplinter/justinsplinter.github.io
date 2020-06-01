@@ -90,6 +90,8 @@ body {
 /*.cover {padding-top:100px;}*/
 .space {height:100px;}
 
+.spacer {height: 30px;}
+
 /*TYPE*/
 
 h1 {
@@ -162,6 +164,12 @@ hr {
     font-weight: 900!important;
 }
 
+.bold2 {
+    font-weight: 900!important;
+    text-transform: uppercase;
+}
+
+
 .sub-text {
     text-transform: uppercase;
     font-size: calc(13px + 0.5vh);
@@ -195,6 +203,12 @@ p {
     background-color: #d8db00;
     color: dimgrey;
 }
+
+.highlight2 {
+        background-color: black;
+        color:#d8db00;
+    }
+
 
 .opa-50 {
     opacity: 0.2;
@@ -352,6 +366,63 @@ i:hover {
 
 
 }
+
+thead th {
+    font-weight: 300!important;
+}
+
+tbody td {
+    font-weight: 800;
+
+}
+
+  
+  thead tr {
+    background-color: #E6E6E6;
+    color: #808080;
+  }
+
+.ord {
+    background-color:  #E6E6E6;
+    color: #808080;
+    font-weight: 900;
+}
+
+.total tr{
+    font-weight: 100!important;
+}
+
+th {
+    border-right: 1px  #808080 solid;
+}
+
+tr {
+    border-bottom: 1px black solid;
+}
+
+td {
+    border-right: 1px black solid;
+}
+
+table {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.name {
+    background-color: none;
+    color:#333333;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+  
+  /* table {
+    background-color: #ff33cc;
+  } */
 
     /*@media (min-width: 576px) and (max-width: 991.98px) {*/
         /*body {margin-top: 10vw!important;}*/
